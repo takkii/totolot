@@ -3,6 +3,8 @@
 # Totolot
 made Python3 (Bignyanco evolutions)
 
+[how to use]
+
 ```buildoutcfg
 use dein plugin manager.
 
@@ -10,6 +12,8 @@ use dein plugin manager.
   call dein#add('takkii/ruby-dictionary3')
 ```
 
-Read the input completion dictionary.
+It is necessary to load ruby-dictionary3.
+
+Please use either Bignyanco or totolot.
 
 ![totolot](https://github.com/takkii/totolot/blob/master/images/totolot.gif)
