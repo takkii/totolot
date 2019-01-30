@@ -7,7 +7,7 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-file = open(os.path.expanduser("~\.vim\repos\github.com\takkii\totolot\complete\ruby_complete", "r", encoding="utf_8"))
+file = open(os.path.expanduser(r"~\.vim\repos\github.com\takkii\totolot\complete\ruby_complete", "r", encoding="utf_8"))
 data = file.readlines()
 file.close()
 
