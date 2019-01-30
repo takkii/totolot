@@ -1,10 +1,13 @@
-﻿import re
+﻿import os
+import re
 import traceback
 from deoplete.source.base import Base
+from os.path import expanduser
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
-file = open("ruby_complete", "r", encoding="utf_8")
+home = expanduser("~")
+file = open(os.path.expanduser("~\.vim\repos\github.com\takkii\totolot\complete\ruby_complete", "r", encoding="utf_8"))
 data = file.readlines()
 file.close()
 
