@@ -16,9 +16,9 @@ file.close()
 class Source(Base):
     def __init__(self, vim):
         super().__init__(vim)
-        self.name = 'Bignyanco'
+        self.name = 'totolot'
         self.filetypes = ['ruby']
-        self.mark = '[neo_dictionary2]'
+        self.mark = ['Spirit_of_the_Forest']
         rubymatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         regexmatch = [r'[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]']
         self.input_pattern = '|'.join(rubymatch + regexmatch)
