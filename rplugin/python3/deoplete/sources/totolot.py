@@ -8,7 +8,7 @@ from os.path import expanduser
 
 home = expanduser("~")
 file = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-data = file.readlines()
+data = file.readlines().strip("^@")
 file.close()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
