@@ -34,4 +34,6 @@ It is necessary to load ruby-dictionary3.
 
 Please use either Bignyanco or totolot.
 
+![background](https://github.com/takkii/totolot/blob/master/images/bg.gif)
+
 ![totolot](https://github.com/takkii/totolot/blob/master/images/totolot.gif)
