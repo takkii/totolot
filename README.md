@@ -34,10 +34,10 @@ Neovim use dein plugin manager.
 
 *Please use either Bignyanco or totolot.*
 
-[totolot Sample picture]
+#### totolot Sample picture to views [Spirit_of_the_Forest]
 
 ![background](https://github.com/takkii/totolot/blob/master/images/bg.gif)
 
-[totolot images icon]
+#### totolot images icon
 
 ![totolot](https://github.com/takkii/totolot/blob/master/images/totolot.gif)
