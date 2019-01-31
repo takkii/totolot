@@ -7,9 +7,18 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-file = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-data = file.readlines()
-file.close()
+ruby = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+mini = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"))
+unit = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test2_complete"))
+report = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"))
+data_ruby = ruby.readlines()
+data_mini = mini.readlines()
+data_unit = unit.readlines()
+data_report = report.readlines()
+ruby.close()
+mini.close()
+unit.close()
+report.close()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -30,7 +39,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = data
+            dic = data_ruby + data_mini + data_unit + data_report
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
