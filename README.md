@@ -6,9 +6,9 @@
 
 >Neovim/Vim8 enviroments.
 
-made Python3 (Bignyanco evolutions)
+Made Python3 (Bignyanco Evolutions)
 
-[how to use]
+[How To Use]
 
 ```buildoutcfg
 
@@ -30,10 +30,14 @@ Neovim use dein plugin manager.
 
 ```
 
-It is necessary to load ruby-dictionary3.
+#### It is necessary to load ruby-dictionary3.
 
-Please use either Bignyanco or totolot.
+*Please use either Bignyanco or totolot.*
+
+[totolot Sample picture]
 
 ![background](https://github.com/takkii/totolot/blob/master/images/bg.gif)
+
+[totolot images icon]
 
 ![totolot](https://github.com/takkii/totolot/blob/master/images/totolot.gif)
