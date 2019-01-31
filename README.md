@@ -12,6 +12,8 @@ made Python3 (Bignyanco evolutions)
 
 ```buildoutcfg
 
+[ Need deoplete.nvim ]
+
 Vim8 use dein plugin manager.
 
   call dein#add('takkii/totolot')
