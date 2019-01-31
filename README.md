@@ -41,3 +41,5 @@ Neovim use dein plugin manager.
 #### totolot images icon
 
 ![totolot](https://github.com/takkii/totolot/blob/master/images/totolot.gif)
+
+Author Takayuki Kamiyama.
