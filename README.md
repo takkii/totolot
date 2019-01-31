@@ -6,9 +6,9 @@
 
 >Neovim/Vim8 enviroments.
 
-Made Python3 (Bignyanco Evolutions)
+*Made Python3 (Bignyanco Evolutions)*
 
-[How To Use]
+#### How To Use
 
 ```buildoutcfg
 
