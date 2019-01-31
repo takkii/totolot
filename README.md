@@ -4,17 +4,28 @@
 
 *nick_name totolot-131*
 
->Vim8 enviroments.
+>Neovim/Vim8 enviroments.
 
 made Python3 (Bignyanco evolutions)
 
 [how to use]
 
 ```buildoutcfg
-use dein plugin manager.
+
+Vim8 use dein plugin manager.
 
   call dein#add('takkii/totolot')
   call dein#add('takkii/ruby-dictionary3')
+
+
+Neovim use dein plugin manager.
+
+  call dein#add('takkii/totolot')
+
+  mkdir ~/.vim/repos/github.com/takkii
+  cd ~/.vim/repos/github.com/takkii/
+  git clone https://github.com/takkii/ruby-dictionary3.git
+
 ```
 
 It is necessary to load ruby-dictionary3.
