@@ -11,14 +11,15 @@ ruby = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/
 mini = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"))
 unit = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test2_complete"))
 report = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"))
-data_ruby = ruby.readlines()
-data_mini = mini.readlines()
-data_unit = unit.readlines()
-data_report = report.readlines()
-ruby.close()
-mini.close()
-unit.close()
-report.close()
+list_ruby = list()
+list_mini = list()
+list_unit = list()
+list_report = list()
+
+data_ruby = list_ruby([ruby])
+data_mini = list_mini([mini])
+data_unit = list_unit([unit])
+data_report = list_report([report])
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
