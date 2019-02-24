@@ -27,7 +27,7 @@ class Source(Base):
         super().__init__(vim)
         self.name = 'totolot'
         self.filetypes = ['ruby']
-        self.mark = '[Spirit_of_the_Forest]'
+        self.mark = '[Do_Your_Best!]'
         rubymatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         regexmatch = [r'[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]']
         self.input_pattern = '|'.join(rubymatch + regexmatch)
