@@ -40,7 +40,8 @@ class Source(Base):
     def gather_candidates(self, context):
         try:
             dic = data_ruby + data_mini + data_unit + data_report
-            dic.sort(key=lambda dic: dic[0])
+            dict = list(map(lambda s:s.rstrip("\n").dic))
+            dict.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
             traceback.print_exc()
