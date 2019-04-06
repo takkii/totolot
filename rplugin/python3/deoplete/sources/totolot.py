@@ -8,16 +8,13 @@ from os.path import expanduser
 
 home = expanduser("~")
 ruby = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-mini = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"))
-unit = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test2_complete"))
+test = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"))
 report = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"))
 data_ruby = ruby.readlines()
-data_mini = mini.readlines()
-data_unit = unit.readlines()
+data_test = test.readlines()
 data_report = report.readlines()
 ruby.close()
-mini.close()
-unit.close()
+test.close()
 report.close()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
@@ -27,7 +24,7 @@ class Source(Base):
         super().__init__(vim)
         self.name = 'totolot'
         self.filetypes = ['ruby']
-        self.mark = '[Spirit_of_the_Forest]'
+        self.mark = '[Do_Your_Best!]'
         rubymatch = [r'\.[a-zA-Z0-9_?!]*|[a-zA-Z]\w*::\w*']
         regexmatch = [r'[<a-zA-Z(?: .+?)?>.*?<\/a-zA-Z>]']
         self.input_pattern = '|'.join(rubymatch + regexmatch)
@@ -39,7 +36,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = data_ruby + data_mini + data_unit + data_report
+            dic = data_ruby + data_test + data_report
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
