@@ -36,7 +36,7 @@ Neovim use dein plugin manager.
 
 *Please use either Bignyanco or totolot.*
 
-#### totolot Sample picture to views [Spirit_of_the_Forest]
+#### totolot Sample picture to views [Do_your_Best!]
 
 ![background](https://github.com/takkii/totolot/blob/master/images/bg.gif)
 
