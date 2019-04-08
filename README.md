@@ -38,7 +38,7 @@ Neovim use dein plugin manager.
 
 #### totolot Sample picture to views [Do_your_Best!]
 
-![background](https://github.com/takkii/totolot/blob/master/images/bg.gif)
+![background](https://github.com/takkii/totolot/blob/master/images/background.gif)
 
 #### totolot images icon
 
