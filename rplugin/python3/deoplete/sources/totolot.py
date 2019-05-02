@@ -11,17 +11,17 @@ home = expanduser("~")
 with open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"), encoding='utf-8') as w:
     for ruby in w:
         ruby = ruby.rstrip('\r\n')
-        data_ruby = ruby
+        data_ruby = ruby.readlines()
 
 with open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"), encoding='utf-8') as q:
     for test in q:
         test = test.rstrip('\r\n')
-        data_test = test
+        data_test = test.readlines()
 
 with open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"), encoding='utf-8') as f:
     for report in f:
         report = report.rstrip('\r\n')
-        data_report = report
+        data_report = report.readlines()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
