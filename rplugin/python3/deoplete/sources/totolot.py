@@ -7,15 +7,21 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-ruby = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-test = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"))
-report = open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"))
-data_ruby = ruby.readlines()
-data_test = test.readlines()
-data_report = report.readlines()
-ruby.close()
-test.close()
-report.close()
+
+with open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"), encoding='utf-8') as w:
+    for ruby in w:
+        ruby = ruby.rstrip('\r\n')
+        data_ruby = ruby
+
+with open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"), encoding='utf-8') as q:
+    for test in q:
+        test = test.rstrip('\r\n')
+        data_test = test
+
+with open(os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"), encoding='utf-8') as f:
+    for report in f:
+        report = report.rstrip('\r\n')
+        data_report = report
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
