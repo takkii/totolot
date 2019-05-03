@@ -13,10 +13,13 @@
 #### How To Use
 
 ```buildoutcfg
+--------------------------------------------------------------------
 
 [ Need deoplete.nvim ]
 
-Vim8 use (I do not use it as much as possible) dein plugin manager.
+--------------------------------------------------------------------
+
+Vim8 use (Do not use it as much as possible) dein plugin manager.
 Use 'takkii/Bignyanco' if you use.
 
   call dein#add('takkii/totolot')
@@ -24,18 +27,23 @@ Use 'takkii/Bignyanco' if you use.
   cd ~/.config/nvim/repos/github.com/takkii/
   git clone https://github.com/takkii/ruby-dictionary3.git
 
-ruby-dictionary3 path
+--------------------------------------------------------------------
+
+totolot ruby-dictionary3 read path.
 
   ~/.config/nvim/repos/github.com/takkii
 
-Neovim use only.
+--------------------------------------------------------------------
 
-dein plugin manager
-use case
+[Neovim use only]
+
+dein plugin manager,
+use case.
 
   call dein#add('takkii/totolot')
   call dein#add('takkii/ruby-dictionary3')
 
+--------------------------------------------------------------------
 ```
 
 #### It is necessary to load ruby-dictionary3.
