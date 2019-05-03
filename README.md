@@ -6,7 +6,7 @@
 
 *nick_name totolot-131*
 
->Neovim/Vim8 enviroments.
+>Neovim enviroments.
 
 *Made Python3 (Bignyanco Evolutions)*
 
@@ -21,11 +21,6 @@
 
 Vim8 use (Do not use it as much as possible) dein plugin manager.
 Use 'takkii/Bignyanco' if you use.
-
-  call dein#add('takkii/totolot')
-  mkdir ~/.config/nvim/repos/github.com/takkii
-  cd ~/.config/nvim/repos/github.com/takkii/
-  git clone https://github.com/takkii/ruby-dictionary3.git
 
 --------------------------------------------------------------------
 
@@ -48,7 +43,7 @@ use case.
 
 #### It is necessary to load ruby-dictionary3.
 
-*Please use either Bignyanco or totolot.*
+*Totolot is Neovim Plugins, Bignyanco is Neovim/Vim8 plugins*
 
 #### totolot Sample picture to views [Do_your_Best!]
 
