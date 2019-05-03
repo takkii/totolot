@@ -19,8 +19,8 @@
 
 --------------------------------------------------------------------
 
-Vim8 use (Do not use it as much as possible) dein plugin manager.
-Use 'takkii/Bignyanco' if you use.
+Vim8 (Do not use it as much as possible) dein plugin manager.
+'takkii/Bignyanco', if you use.
 
 --------------------------------------------------------------------
 
