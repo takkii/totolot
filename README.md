@@ -16,19 +16,25 @@
 
 [ Need deoplete.nvim ]
 
-Vim8 use dein plugin manager.
+Vim8 use (I do not use it as much as possible) dein plugin manager.
+Use 'takkii/Bignyanco' if you use.
+
+  call dein#add('takkii/totolot')
+  mkdir ~/.config/nvim/repos/github.com/takkii
+  cd ~/.config/nvim/repos/github.com/takkii/
+  git clone https://github.com/takkii/ruby-dictionary3.git
+
+ruby-dictionary3 path
+
+  ~/.config/nvim/repos/github.com/takkii
+
+Neovim use only.
+
+dein plugin manager
+use case
 
   call dein#add('takkii/totolot')
   call dein#add('takkii/ruby-dictionary3')
-
-
-Neovim use dein plugin manager.
-
-  call dein#add('takkii/totolot')
-
-  mkdir ~/.vim/repos/github.com/takkii
-  cd ~/.vim/repos/github.com/takkii/
-  git clone https://github.com/takkii/ruby-dictionary3.git
 
 ```
 
