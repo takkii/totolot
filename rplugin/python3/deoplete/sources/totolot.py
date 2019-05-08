@@ -23,6 +23,11 @@ with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictio
         report = report.rstrip('\r\n')
         data_report = list(report.split())
 
+with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rails_method_complete"), encoding='utf-8') as z:
+    for rails in z:
+        rails = rails.rstrip('\r\n')
+        data_rails = list(rails.split())
+
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 class Source(Base):
@@ -42,7 +47,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = data_ruby + data_test + data_report
+            dic = data_ruby + data_test + data_report + data_rails
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
