@@ -10,22 +10,22 @@ home = expanduser("~")
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"), encoding='utf-8') as w:
     for ruby in w:
-        ruby = ruby.rstrip('\r\n')
+        ruby = ruby.rstrip()
         data_ruby = list(ruby.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"), encoding='utf-8') as q:
     for test in q:
-        test = test.rstrip('\r\n')
+        test = test.rstrip()
         data_test = list(test.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"), encoding='utf-8') as f:
     for report in f:
-        report = report.rstrip('\r\n')
+        report = report.rstrip()
         data_report = list(report.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rails_method_complete"), encoding='utf-8') as z:
     for rails in z:
-        rails = rails.rstrip('\r\n')
+        rails = rails.rstrip()
         data_rails = list(rails.split())
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
