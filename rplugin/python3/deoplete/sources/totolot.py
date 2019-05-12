@@ -47,8 +47,8 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            data_ruby += [data_test, data_report, data_rails]
-            data_ruby.sort(key=lambda dic: dic[0])
-            return data_ruby
+            dic = data_ruby + data_test + data_report + data_rails
+            dic.sort(key=lambda dic: dic[0])
+            return dic
         except Exception:
             traceback.print_exc()
