@@ -1,6 +1,7 @@
 ﻿import os
 import re
 import traceback
+import bisect
 from deoplete.source.base import Base
 from os.path import expanduser
 
@@ -11,22 +12,26 @@ home = expanduser("~")
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"), encoding='utf-8') as w:
     for ruby in w:
         ruby = ruby.rstrip()
-        data_ruby = list(ruby.split())
+        ruby_index = list(ruby.split())
+        data_ruby = bisect.bisect_right(ruby_index, ruby)
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"), encoding='utf-8') as q:
     for test in q:
         test = test.rstrip()
-        data_test = list(test.split())
+        test_index = list(test.split())
+        data_test = bisect.bisect_right(test_index, test)
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"), encoding='utf-8') as f:
     for report in f:
         report = report.rstrip()
-        data_report = list(report.split())
+        report_index = list(report.split())
+        data_report = bisect.bisect_right(report_index, report)
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rails_method_complete"), encoding='utf-8') as z:
     for rails in z:
         rails = rails.rstrip()
-        data_rails = list(rails.split())
+        rails_index = list(rails.split())
+        data_rails = bisect.bisect_right(rails_index, rails)
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
