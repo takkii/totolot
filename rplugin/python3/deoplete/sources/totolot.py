@@ -11,21 +11,22 @@ home = expanduser("~")
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"), encoding='utf-8') as w:
     for ruby in w:
         ruby = ruby.rstrip()
+        data_ruby = list(ruby.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"), encoding='utf-8') as q:
     for test in q:
         test = test.rstrip()
+        data_test = list(test.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"), encoding='utf-8') as f:
     for report in f:
         report = report.rstrip()
+        data_report = list(report.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rails_method_complete"), encoding='utf-8') as z:
     for rails in z:
         rails = rails.rstrip()
-
-mix = ruby.add(test).add(report).add(rails)
-data_mix = list(mix.split())
+        data_rails = list(rails.split())
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -46,7 +47,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = data_mix
+            dic = data_ruby += data_test += data_report += data_rails
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
