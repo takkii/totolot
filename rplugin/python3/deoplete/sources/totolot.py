@@ -50,7 +50,7 @@ class Source(Base):
         try:
             dic = data_ruby + data_test + data_report + data_rails
             dic2 = dic.sort(key=lambda dic: dic[0])
-            index = bisect.bisect_right(dic2, dic)
+            index = bisect.bisect_right(list(dic2), list(dic))
             return index
         except Exception:
             traceback.print_exc()
