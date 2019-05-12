@@ -48,8 +48,8 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = [data_ruby + data_test + data_report + data_rails]
-            dic2 = [dic.sort(key=lambda dic: dic[0])]
+            list(dic) = [data_ruby + data_test + data_report + data_rails]
+            list(dic2) = [list(dic).sort(key=lambda dic: dic[0])]
             index = bisect_right(dic2, dic)
             return index
         except Exception:
