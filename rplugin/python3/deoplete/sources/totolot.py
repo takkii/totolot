@@ -12,26 +12,22 @@ home = expanduser("~")
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"), encoding='utf-8') as w:
     for ruby in w:
         ruby = ruby.rstrip()
-        ruby_index = list(ruby.split())
-        data_ruby = bisect.bisect_right(ruby_index, ruby)
+        data_ruby = list(ruby.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"), encoding='utf-8') as q:
     for test in q:
         test = test.rstrip()
-        test_index = list(test.split())
-        data_test = bisect.bisect_right(test_index, test)
+        data_test = list(test.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"), encoding='utf-8') as f:
     for report in f:
         report = report.rstrip()
-        report_index = list(report.split())
-        data_report = bisect.bisect_right(report_index, report)
+        data_report = list(report.split())
 
 with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rails_method_complete"), encoding='utf-8') as z:
     for rails in z:
         rails = rails.rstrip()
-        rails_index = list(rails.split())
-        data_rails = bisect.bisect_right(rails_index, rails)
+        data_rails = list(rails.split())
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -53,6 +49,8 @@ class Source(Base):
     def gather_candidates(self, context):
         try:
             dic = data_ruby + data_test + data_report + data_rails
-            return dic
+            dic2 = dic.sort(key=lambda dic: dic[0])
+            index = bisect.bisect_right(dic2, dic)
+            return index
         except Exception:
             traceback.print_exc()
