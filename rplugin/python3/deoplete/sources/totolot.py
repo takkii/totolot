@@ -17,7 +17,6 @@ index_report = report.readlines()
 index_rails = rails.readlines()
 
 data_mix = index_ruby + index_test + index_report + index_rails
-data_mix.close
 
 data_ruby = list(map(lambda s:s.rstrip(),data_mix))
 
@@ -45,3 +44,5 @@ class Source(Base):
             return dic
         except Exception:
             traceback.print_exc()
+        finally:
+            dic.close
