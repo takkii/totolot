@@ -17,7 +17,7 @@ index_report = report.readlines()
 index_rails = rails.readlines()
 
 data_mix = index_ruby + index_test + index_report + index_rails
-data_ruby = list(map(lambda s:s.rstrip(),data_mix))
+data_ruby = list(map(lambda s:s.rstrip(), data_mix))
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -44,4 +44,5 @@ class Source(Base):
         except Exception:
             traceback.print_exc()
         finally:
-            data_mix.close
+            data_by = ruby + test + report + rails
+            data_by.close()
