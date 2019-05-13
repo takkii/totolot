@@ -44,5 +44,7 @@ class Source(Base):
         except Exception:
             traceback.print_exc()
         finally:
-            data_by = ruby + test + report + rails
-            data_by.close()
+            ruby.close()
+            test.close()
+            report.close()
+            rails.close()
