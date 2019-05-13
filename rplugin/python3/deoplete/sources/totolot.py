@@ -19,10 +19,6 @@ data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
 data_test = list(map(lambda s:s.rstrip(),index_test))
 data_report = list(map(lambda s:s.rstrip(),index_report))
 data_rails = list(map(lambda s:s.rstrip(),index_rails))
-ruby.close()
-test.close()
-report.close()
-rails.close()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -44,6 +40,7 @@ class Source(Base):
     def gather_candidates(self, context):
         try:
             dic = data_ruby + data_test + data_report + data_rails
+            dic.close
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
