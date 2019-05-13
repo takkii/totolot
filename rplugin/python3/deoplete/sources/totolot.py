@@ -15,10 +15,11 @@ index_ruby = ruby.readlines()
 index_test = test.readlines()
 index_report = report.readlines()
 index_rails = rails.readlines()
-data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
-data_test = list(map(lambda s:s.rstrip(),index_test))
-data_report = list(map(lambda s:s.rstrip(),index_report))
-data_rails = list(map(lambda s:s.rstrip(),index_rails))
+
+data_mix = index_ruby + index_test + index_report + index_rails
+data_mix.close
+
+data_ruby = list(map(lambda s:s.rstrip(),data_mix))
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -39,8 +40,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = data_ruby + data_test + data_report + data_rails
-            dic.close
+            dic = data_ruby
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
