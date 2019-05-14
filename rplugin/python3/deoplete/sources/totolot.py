@@ -8,7 +8,7 @@ from os.path import expanduser
 
 home = expanduser("~")
 
-with open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/method_complete', mode='r', encoding='utf-8')) as f:
+with open(os.path.expanduser('~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/method_complete')) as f:
     data_ruby = f.readline().rstrip('\r\n').split()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
