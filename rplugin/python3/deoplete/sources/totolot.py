@@ -9,8 +9,12 @@ from os.path import expanduser
 home = expanduser("~")
 
 with open('~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/method_complete', mode='r', encoding='utf-8') as f:
+while True:
     line = f.readline()
+    if line == "":
+        break
     aline = line.split()
+    f.close()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
