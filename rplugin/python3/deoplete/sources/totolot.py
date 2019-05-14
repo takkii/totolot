@@ -7,17 +7,16 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-ruby = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-test = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_test_complete"))
-report = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/minitest_reporter_complete"))
-rails = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rails_method_complete"))
-index_ruby = ruby.readlines()
-index_test = test.readlines()
-index_report = report.readlines()
-index_rails = rails.readlines()
 
-data_mix = index_ruby + index_test + index_report + index_rails
-data_ruby = list(map(lambda s:s.rstrip(), data_mix))
+with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/method_complete"), encoding='utf-8') as w:
+    for ruby in w:
+        ruby = ruby.rstrip()
+        data_ruby = list(ruby.split())
+
+with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/test_complete"), encoding='utf-8') as q:
+    for test in q:
+        test = test.rstrip()
+        data_test = list(test.split())
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -38,7 +37,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = data_ruby
+            dic = data_ruby + data_test
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
@@ -46,5 +45,3 @@ class Source(Base):
         finally:
             ruby.close()
             test.close()
-            report.close()
-            rails.close()
