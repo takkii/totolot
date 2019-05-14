@@ -42,6 +42,3 @@ class Source(Base):
             return dic
         except Exception:
             traceback.print_exc()
-        finally:
-            ruby.close()
-            test.close()
