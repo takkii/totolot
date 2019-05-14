@@ -13,11 +13,6 @@ with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictio
         ruby = ruby.rstrip()
         data_ruby = list(ruby.split())
 
-with open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/test_complete"), encoding='utf-8') as q:
-    for test in q:
-        test = test.rstrip()
-        data_test = list(test.split())
-
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 class Source(Base):
@@ -37,7 +32,7 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            dic = data_ruby + data_test
+            dic = data_ruby
             dic.sort(key=lambda dic: dic[0])
             return dic
         except Exception:
