@@ -7,7 +7,7 @@ from os.path import expanduser
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 home = expanduser("~")
-ruby = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
 index_ruby = ruby.readlines()
 data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
 ruby.close()
