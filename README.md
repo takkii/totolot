@@ -26,7 +26,10 @@ Vim8 (Do not use it as much as possible) dein plugin manager.
 
 totolot ruby-dictionary3 read path.
 
-  ~/.config/nvim/repos/github.com/takkii
+~/.config/nvim/repos/github.com/takkii (1.0.0 ~ 1.5.0)
+
+~/.config/nvim/.cache/dein/repos/github.com/takkii (1.5.1 ~ )
+
 
 --------------------------------------------------------------------
 
