@@ -1,4 +1,4 @@
-﻿import os
+import os
 import re
 import traceback
 from deoplete.source.base import Base
@@ -8,16 +8,15 @@ from os.path import expanduser
 
 home = expanduser("~")
 
-d1 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
+d1 = os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/")
+d2 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
 
 if os.path.exists(d1):
+    ruby = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+elif os.path.exists(d2):
     ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
 else:
-    print('最新ではありません、過去のtotolotを入れてください。')
-
-    index_ruby = ruby.readlines()
-    data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
-    ruby.close()
+    print('どれにも該当しません、ruby-dictionary3を入れてください。')
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
