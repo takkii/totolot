@@ -12,7 +12,6 @@
 
 #### How To Use
 
-```buildoutcfg
 --------------------------------------------------------------------
 
 [ Need deoplete.nvim ]
@@ -26,7 +25,7 @@ Vim8 (Do not use it as much as possible) dein plugin manager.
 
 totolot ruby-dictionary3 read path.
 
-Conditional branch Transplant from MiniTab.
+Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 
 --------------------------------------------------------------------
 
@@ -39,7 +38,6 @@ use case.
   call dein#add('takkii/ruby-dictionary3')
 
 --------------------------------------------------------------------
-```
 
 #### It is necessary to load ruby-dictionary3.
 
