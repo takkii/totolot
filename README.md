@@ -8,22 +8,22 @@
 
 >Neovim enviroments.
 
-*Made Python3 (Bignyanco Evolutions)*
+*Made [Python3](https://www.python.org/) (Bignyanco Evolutions)*
 
 #### How To Use
 
 --------------------------------------------------------------------
 
-[ Need deoplete.nvim ]
+[ Need [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) ]
 
 --------------------------------------------------------------------
 
 Vim8 (Do not use it as much as possible) dein plugin manager.
-'takkii/Bignyanco', if you use.
+['takkii/Bignyanco'](https://github.com/takkii/Bignyanco), if you use.
 
 --------------------------------------------------------------------
 
-totolot ruby-dictionary3 read path.
+totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path.
 
 Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 
@@ -31,7 +31,7 @@ Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 
 [Neovim use only]
 
-dein plugin manager,
+[dein](https://github.com/Shougo/dein.vim) plugin manager,
 use case.
 
   call dein#add('takkii/totolot')
