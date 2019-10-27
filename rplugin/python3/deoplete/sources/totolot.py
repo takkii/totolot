@@ -10,8 +10,8 @@ home = expanduser("~")
 
 d1 = os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/")
 d2 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
-d2 = os.path.expanduser("~/.vim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
-d2 = os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/")
+d3 = os.path.expanduser("~/.vim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
+d4 = os.path.expanduser("~/.vim/repos/github.com/takkii/ruby-dictionary3/")
 
 if os.path.exists(d1):
     ruby = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
