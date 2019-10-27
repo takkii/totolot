@@ -1,4 +1,4 @@
-﻿﻿import os
+﻿import os
 import re
 import traceback
 from deoplete.source.base import Base
