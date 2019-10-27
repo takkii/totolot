@@ -9,7 +9,7 @@ from os.path import expanduser
 home = expanduser("~")
 
 d1 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
-dire2 = os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/")
+d2 = os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/")
 
 if os.path.exists(d1):
     ruby = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
