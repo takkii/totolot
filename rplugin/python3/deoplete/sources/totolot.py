@@ -18,6 +18,10 @@ elif os.path.exists(d2):
 else:
     print('どれにも該当しません、ruby-dictionary3を入れてください。')
 
+index_ruby = ruby.readlines()
+data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
+ruby.close()
+
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
 class Source(Base):
