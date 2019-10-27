@@ -35,6 +35,7 @@ Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 use case.
 
   call dein#add('takkii/totolot')
+  
   call dein#add('takkii/ruby-dictionary3')
 
 --------------------------------------------------------------------
