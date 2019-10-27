@@ -26,7 +26,7 @@ Vim8 (Do not use it as much as possible) dein plugin manager.
 
 totolot ruby-dictionary3 read path.
 
-Ported discrimination from MiniTab.
+Conditional branch Transplant from MiniTab.
 
 --------------------------------------------------------------------
 
