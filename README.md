@@ -34,9 +34,24 @@ Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 [dein](https://github.com/Shougo/dein.vim) plugin manager,
 use case.
 
-  call dein#add('takkii/totolot')
-  
-  call dein#add('takkii/ruby-dictionary3')
+[init.vim]
+
+```markdown
+call dein#add('takkii/totolot')
+call dein#add('takkii/ruby-dictionary3')
+```
+
+or
+
+[dein.toml]
+
+```markdown
+[[plugins]]
+repo = 'takkii/totolot'
+
+[[plugins]]
+repo = 'takkii/ruby-dictionary3'
+```
 
 --------------------------------------------------------------------
 
