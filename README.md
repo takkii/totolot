@@ -2,11 +2,7 @@
 
 <div align="center"><img src="https://github.com/takkii/Bignyanco/blob/master/images/python_ruby.gif" alt="Python¤ÈRuby" title="logo"></div>
 
-# Totolot created date [2019.01.31]
-
-*nick_name totolot-131*
-
->Neovim enviroments.
+# Totolot created date [ 2019.01.31 ]
 
 *Made [Python3](https://www.python.org/) (Bignyanco Evolutions)*
 
@@ -18,8 +14,9 @@
 
 --------------------------------------------------------------------
 
-Vim8 (Do not use it as much as possible) dein plugin manager.
-['takkii/Bignyanco'](https://github.com/takkii/Bignyanco), if you use.
+### Do not use Vim8 for totolot env, dein plugin manager.
+
+If you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
 
 --------------------------------------------------------------------
 
@@ -29,12 +26,12 @@ Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 
 --------------------------------------------------------------------
 
-[Neovim use only]
+### [ Only Use Neovim ]
 
 [dein](https://github.com/Shougo/dein.vim) plugin manager,
 use case.
 
-[init.vim]
+[ init.vim ]
 
 ```markdown
 call dein#add('takkii/totolot')
@@ -43,7 +40,7 @@ call dein#add('takkii/ruby-dictionary3')
 
 or
 
-[dein.toml]
+[ dein.toml ]
 
 ```markdown
 [[plugins]]
