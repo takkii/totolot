@@ -67,7 +67,11 @@ repo = 'takkii/ruby-dictionary3'
 
 #### It is necessary to load ruby-dictionary3.
 
-*Totolot is Vim8/Neovim Plugins, Vim8 set path '~/.cache/dein'
+```markdown
+
+Totolot is Vim8/Neovim Plugins, Vim8 set path '~/.cache/dein'
+
+```
 
 #### totolot Sample picture to views [Do_your_Best!]
 
