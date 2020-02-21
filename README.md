@@ -12,11 +12,24 @@
 
 [ Need [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) ]
 
+```markdown
+deoplete requires msgpack 1.0.0+.
+
+pip uninstall msgpack-python
+pip install msgpack
+
+or
+
+pip install -U msgpack
+```
+
+※ Please setup.
+
 --------------------------------------------------------------------
 
-### Do not use Vim8 for totolot env, dein plugin manager.
+### Use Vim8/Neovim for totolot env, dein plugin manager.
 
-If you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
+other you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
 
 --------------------------------------------------------------------
 
@@ -31,7 +44,7 @@ Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 [dein](https://github.com/Shougo/dein.vim) plugin manager,
 use case.
 
-[ init.vim ]
+[ init.vim / .vimrc ]
 
 ```markdown
 call dein#add('takkii/totolot')
@@ -54,7 +67,7 @@ repo = 'takkii/ruby-dictionary3'
 
 #### It is necessary to load ruby-dictionary3.
 
-*Totolot is Neovim Plugins, Bignyanco is Neovim/Vim8 plugins*
+*Totolot is Vim8/Neovim Plugins, Vim8 set path '~/.cache/dein'
 
 #### totolot Sample picture to views [Do_your_Best!]
 
