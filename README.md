@@ -1,4 +1,4 @@
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub release](https://img.shields.io/github/release/takkii/totolot.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/totolot.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/totolot.svg?style=flat)](GitHub)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)[![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)[![GitHub release](https://img.shields.io/github/release/takkii/totolot.svg?style=flat)](GitHub)[![GitHub Status](https://img.shields.io/github/last-commit/takkii/totolot.svg?style=flat)](GitHub)
 
 <div align="center"><img src="https://github.com/takkii/Bignyanco/blob/master/images/python_ruby.gif" alt="Python¤ÈRuby" title="logo"></div>
 
