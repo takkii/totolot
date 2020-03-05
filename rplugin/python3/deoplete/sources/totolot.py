@@ -23,7 +23,8 @@ else:
     print('どれにも該当しません、ruby-dictionary3を入れてください。')
 
 index_ruby = ruby.readlines()
-data_ruby = list(map(lambda s:s.rstrip(),index_ruby))
+sort_ruby = np.sort(index_ruby)
+data_ruby = list(map(lambda s:s.rstrip(),sort_ruby))
 ruby.close()
 
 
@@ -48,7 +49,7 @@ class Source(Base):
     def gather_candidates(self, context):
         try:
             dic = data_ruby
-            dic_sort = np.sort(dic)
+            dic_sort = sorted(dic, key=lambda dic: dic[0])
             return dic_sort
         except Exception:
             traceback.print_exc()
