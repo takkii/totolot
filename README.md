@@ -2,11 +2,7 @@
 
 <div align="center"><img src="https://github.com/takkii/Bignyanco/blob/master/images/python_ruby.gif" alt="Python¤ÈRuby" title="logo"></div>
 
-# Totolot created date [2019.01.31]
-
-*nick_name totolot-131*
-
->Neovim enviroments.
+# Totolot created date [ 2019.01.31 ]
 
 *Made [Python3](https://www.python.org/) (Bignyanco Evolutions)*
 
@@ -16,10 +12,24 @@
 
 [ Need [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) ]
 
+```markdown
+deoplete requires msgpack 1.0.0+.
+
+pip uninstall msgpack-python
+pip install msgpack
+
+or
+
+pip install -U msgpack
+```
+
+※ Please setup.
+
 --------------------------------------------------------------------
 
-Vim8 (Do not use it as much as possible) dein plugin manager.
-['takkii/Bignyanco'](https://github.com/takkii/Bignyanco), if you use.
+### Use Vim8/Neovim for totolot env, dein plugin manager.
+
+other you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
 
 --------------------------------------------------------------------
 
@@ -29,12 +39,12 @@ Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 
 --------------------------------------------------------------------
 
-[Neovim use only]
+### [ Only Use Neovim ]
 
 [dein](https://github.com/Shougo/dein.vim) plugin manager,
 use case.
 
-[init.vim]
+[ init.vim / .vimrc ]
 
 ```markdown
 call dein#add('takkii/totolot')
@@ -43,7 +53,7 @@ call dein#add('takkii/ruby-dictionary3')
 
 or
 
-[dein.toml]
+[ dein.toml ]
 
 ```markdown
 [[plugins]]
@@ -57,7 +67,11 @@ repo = 'takkii/ruby-dictionary3'
 
 #### It is necessary to load ruby-dictionary3.
 
-*Totolot is Neovim Plugins, Bignyanco is Neovim/Vim8 plugins*
+```markdown
+
+Totolot is Vim8/Neovim Plugins, Vim8 set path '~/.cache/dein'
+
+```
 
 #### totolot Sample picture to views [Do_your_Best!]
 
