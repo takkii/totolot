@@ -13,14 +13,18 @@
 [ Need [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) ]
 
 ```markdown
-deoplete requires msgpack 1.0.0+.
+※ deoplete requires msgpack 1.0.0+.
 
 pip uninstall msgpack-python
 pip install msgpack
 
-or
+※ already installed msgpack
 
 pip install -U msgpack
+
+※ totolot HEAD version is numpy needing
+
+pip install numpy
 ```
 
 ※ Please setup.
