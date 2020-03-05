@@ -3,6 +3,7 @@ import re
 import traceback
 from deoplete.source.base import Base
 from os.path import expanduser
+import numpy as np
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -47,7 +48,7 @@ class Source(Base):
     def gather_candidates(self, context):
         try:
             dic = data_ruby
-            dic_sort = sorted(dic, key=lambda dic: dic[0])
+            dic_sort = np.sort(dic)
             return dic_sort
         except Exception:
             traceback.print_exc()
