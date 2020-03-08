@@ -113,3 +113,4 @@ venv.bak/
 /.idea/inspectionProfiles/Project_Default.xml
 /.gitignore
 /totolot.ini
+/.vscode/settings.json
