@@ -1,6 +1,7 @@
 ﻿import os
 import re
 import traceback
+import install
 from deoplete.source.base import Base
 from os.path import expanduser
 import numpy as np
