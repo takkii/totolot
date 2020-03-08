@@ -40,35 +40,12 @@ python install.py
 ### installer setup views.
 
 ```markdown
-WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
-Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
-To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
 WARNING: Skipping msgpack-python as it is not installed.
-WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
-Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
-To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
-Collecting msgpack
-  Using cached msgpack-1.0.0-cp37-cp37m-manylinux1_x86_64.whl (275 kB)
-Installing collected packages: msgpack
-Successfully installed msgpack-1.0.0
-WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
-Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
-To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
-Collecting numpy
-  Using cached numpy-1.18.1-cp37-cp37m-manylinux1_x86_64.whl (20.1 MB)
-Installing collected packages: numpy
-Successfully installed numpy-1.18.1
-WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
-Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
-To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
-Collecting pynvim
-  Using cached pynvim-0.4.1.tar.gz (41 kB)
+Requirement already up-to-date: msgpack in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (1.0.0)
+Requirement already satisfied: numpy in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (1.18.1)
+Requirement already satisfied: pynvim in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (0.4.1)
 Requirement already satisfied: msgpack>=0.5.0 in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pynvim) (1.0.0)
-Collecting greenlet
-  Using cached greenlet-0.4.15-cp37-cp37m-manylinux1_x86_64.whl (42 kB)
-Installing collected packages: greenlet, pynvim
-    Running setup.py install for pynvim ... done
-Successfully installed greenlet-0.4.15 pynvim-0.4.1
+Requirement already satisfied: greenlet in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pynvim) (0.4.15)
 ```
 
 ### ※ Please setup.

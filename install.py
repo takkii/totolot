@@ -1,9 +1,16 @@
-import pip, site, importlib
+import subprocess
+import importlib, site
 
-pip.main(['uninstall', 'msgpack-python'])
-#pip.main(['install','msgpack'])
-pip.main(['install','-U','msgpack'])
-pip.main(['install','numpy'])
-pip.main(['install','pynvim'])
+msgpy = ['python', '-m', 'pip', 'uninstall', 'msgpack-python']
+msg = ['python', '-m', 'pip', 'install', '-U' ,'msgpack']
+nump = ['python', '-m', 'pip', 'install', 'numpy']
+pyn = ['python', '-m', 'pip', 'install', 'pynvim']
 
-importlib.reload(site)
+try:
+    res = subprocess.check_call(msgpy)
+    res = subprocess.check_call(msg)
+    res = subprocess.check_call(nump)
+    res = subprocess.check_call(pyn)
+    importlib.reload(site)
+except Exception:
+    traceback.print_exc()
