@@ -30,6 +30,8 @@ pip install numpy
 
 git clone https://github.com/takkii/totolot.git
 
+pip install --upgrade pip
+
 cd totolot
 
 python install.py
