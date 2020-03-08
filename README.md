@@ -25,6 +25,14 @@ pip install -U msgpack
 ※ totolot HEAD version is numpy needing
 
 pip install numpy
+
+※ Use Installer.
+
+git clone https://github.com/takkii/totolot.git
+
+cd totolot
+
+python install.py
 ```
 
 ※ Please setup.
