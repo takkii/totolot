@@ -35,7 +35,29 @@ cd totolot
 python install.py
 ```
 
-※ Please setup.
+### installer setup views.
+
+```
+WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
+Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
+To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
+Collecting msgpack==1.0.0
+  Using cached msgpack-1.0.0-cp37-cp37m-manylinux1_x86_64.whl (275 kB)
+Installing collected packages: msgpack
+Successfully installed msgpack-1.0.0
+WARNING: pip is being invoked by an old script wrapper. This will fail in a future version of pip.
+Please see https://github.com/pypa/pip/issues/5599 for advice on fixing the underlying issue.
+To avoid this problem you can invoke Python with '-m pip' instead of running pip directly.
+Collecting numpy==1.18.1
+  Using cached numpy-1.18.1-cp37-cp37m-manylinux1_x86_64.whl (20.1 MB)
+Installing collected packages: numpy
+Successfully installed numpy-1.18.1
+
+<module 'msgpack' from '$HOME/.pyenv/versions/3.7.6/lib/python3.7/site-packages/msgpack/__init__.py'>
+<module 'numpy' from '$HOME/.pyenv/versions/3.7.6/lib/python3.7/site-packages/numpy/__init__.py'>
+```
+
+### ※ Please setup.
 
 --------------------------------------------------------------------
 
