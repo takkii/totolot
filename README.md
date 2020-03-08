@@ -34,7 +34,7 @@ pip install --upgrade pip
 
 cd totolot
 
-python install.py
+python3 ./install.py
 ```
 
 ### Ideal OutPut Results After Running The Installer.
