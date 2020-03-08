@@ -26,7 +26,7 @@ pip install -U msgpack
 
 pip install numpy
 
-※ Use Installer.
+※ Use Installer
 
 git clone https://github.com/takkii/totolot.git
 
@@ -83,6 +83,7 @@ or
 ```markdown
 [[plugins]]
 repo = 'takkii/totolot'
+build = 'python3 ./install.py'
 
 [[plugins]]
 repo = 'takkii/ruby-dictionary3'
