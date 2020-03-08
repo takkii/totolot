@@ -2,10 +2,10 @@ import subprocess
 import importlib, site
 
 class InstallerClass:
-    msgpy = ['python', '-m', 'pip', 'uninstall', 'msgpack-python']
-    msg = ['python', '-m', 'pip', 'install', '-U' ,'msgpack']
-    nump = ['python', '-m', 'pip', 'install', 'numpy']
-    pyn = ['python', '-m', 'pip', 'install', 'pynvim']
+    msgpy = ['python3', '-m', 'pip', 'uninstall', 'msgpack-python']
+    msg = ['python3', '-m', 'pip', 'install', '-U' ,'msgpack']
+    nump = ['python3', '-m', 'pip', 'install', 'numpy']
+    pyn = ['python3', '-m', 'pip', 'install', 'pynvim']
 
     def msgpy_method(self):
         res = subprocess.check_call(self.msgpy)
