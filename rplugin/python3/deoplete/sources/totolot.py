@@ -7,6 +7,7 @@ import numpy as np
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
+try:
 home = expanduser("~")
 
 d1 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
@@ -27,6 +28,10 @@ sort_ruby = np.sort(index_ruby)
 data_ruby = list(map(lambda s:s.rstrip(),sort_ruby))
 ruby.close()
 
+except Exception:
+    traceback.print_exc()
+    print('※ totolotにはnumpyが必要です！')
+    print('pip install numpy')
 
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
