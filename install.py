@@ -1,3 +1,4 @@
+import sys, traceback
 import subprocess
 import importlib, site
 
@@ -9,22 +10,22 @@ class InstallerClass:
 
     def msgpy_method(self):
         try:
-            res = subprocess.check_call(self.msgpy)
+            subprocess.check_call(self.msgpy)
         except Exception:
             traceback.print_exc()
     def msg_method(self):
         try:
-            res = subprocess.check_call(self.msg)
+            subprocess.check_call(self.msg)
         except Exception:
             traceback.print_exc()
     def nump_method(self):
         try:
-            res = subprocess.check_call(self.nump)
+            subprocess.check_call(self.nump)
         except Exception:
             traceback.print_exc()
     def pyn_method(self):
         try:
-            res = subprocess.check_call(self.pyn)
+            subprocess.check_call(self.pyn)
         except Exception:
             traceback.print_exc()
 
