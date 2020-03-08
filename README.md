@@ -37,7 +37,7 @@ cd totolot
 python install.py
 ```
 
-### installer setup views.
+### Ideal OutPut Results After Running The Installer.
 
 ```markdown
 WARNING: Skipping msgpack-python as it is not installed.
