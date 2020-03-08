@@ -26,17 +26,10 @@ elif os.path.exists(d3):
 else:
     print('どれにも該当しません、ruby-dictionary3を入れてください。')
 
-    index_ruby = ruby.readlines()
-
-    try:
-       sort_ruby = np.sort(index_ruby)
-    except Exception:
-       traceback.print_exc()
-       print('※ totolotにはnumpyが必要です！')
-       print('pip install numpy')
-
-    data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
-    ruby.close()
+index_ruby = ruby.readlines()
+sort_ruby = np.sort(index_ruby)
+data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
+ruby.close()
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
