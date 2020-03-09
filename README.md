@@ -25,7 +25,7 @@ python -m pip install --upgrade pip
 
 cd .vim (Vim8) 
 
-or
+or ( Select The Env Where The Totolot is Used )
 
 cd .config/nvim (Neovim)
 
