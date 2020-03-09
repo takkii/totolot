@@ -28,11 +28,9 @@ pip install numpy
 
 ※ Use Installer
 
-git clone https://github.com/takkii/totolot.git
-
 pip install --upgrade pip
 
-cd totolot
+https://raw.githubusercontent.com/takkii/totolot/master/install.py
 
 python3 ./install.py
 ```
