@@ -30,7 +30,7 @@ python3 ./install.py
 ※ install.py is Windows10 Python doesn't Work / MacOS catalina and LinuxMint(Linux Kernel) Python Work.
 ```
 
-### Ideal OutPut Results After Running The Installer.
+### Example OutPut Results After Running The Installer.
 
 ```markdown
 WARNING: Skipping msgpack-python as it is not installed.
