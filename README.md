@@ -42,11 +42,11 @@ python ./install.py
 
 ```markdown
 WARNING: Skipping msgpack-python as it is not installed.
-Requirement already up-to-date: msgpack in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (1.0.0)
-Requirement already satisfied: numpy in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (1.18.1)
-Requirement already satisfied: pynvim in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (0.4.1)
-Requirement already satisfied: msgpack>=0.5.0 in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pynvim) (1.0.0)
-Requirement already satisfied: greenlet in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pynvim) (0.4.15)
+CompletedProcess(args=['python', '-m', 'pip', 'uninstall', 'msgpack-python'], returncode=0, stdout='')
+CompletedProcess(args=['python', '-m', 'pip', 'install', '-U', 'msgpack'], returncode=0, stdout='Requirement already up-to-date: msgpack in d:\\python37\\lib\\site-packages (1.0.0)\n')
+CompletedProcess(args=['python', '-m', 'pip', 'install', 'numpy'], returncode=0, stdout='Requirement already satisfied: numpy in d:\\python37\\lib\\site-packages (1.18.1)\n')
+CompletedProcess(args=['python', '-m', 'pip', 'install', 'pynvim'], returncode=0, stdout='Requirement already satisfied: pynvim in d:\\python37\\lib\\site-packages (0.4.0)\n
+Requirement already satisfied: msgpack>=0.5.0 in d:\\python37\\lib\\site-packages (from pynvim) (1.0.0)\nRequirement already satisfied: greenlet in d:\\python37\\lib\\site-packages (from pynvim) (0.4.15)\n')
 ```
 
 ### ※ Please deoplete and totolot Settting.
