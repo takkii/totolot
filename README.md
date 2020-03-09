@@ -19,6 +19,10 @@ When you don't understand problem Use Installer!
 
 pip install --upgrade pip
 
+or ( Update pip manually )
+
+python -m pip install --upgrade pip
+
 cd .vim (Vim8) 
 
 or
