@@ -36,7 +36,7 @@ python ./install.py
 ※ install.py is Windows10/MacOS/LinuMint Python Work.
 ```
 
-> If you get an error, Please run with administrator(root) or clone the project and run install.py.
+> If you get an error, Please run with root or clone the project or check python version and run install.py.
 
 ### Example OutPut Results After Running The Installer.
 
