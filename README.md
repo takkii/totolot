@@ -13,24 +13,15 @@
 [ Need [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) ]
 
 ```markdown
-※ deoplete requires msgpack 1.0.0+.
-
-pip uninstall msgpack-python
-pip install msgpack
-
-※ already installed msgpack
-
-pip install -U msgpack
-
-※ totolot HEAD version is numpy needing
-
-pip install numpy
-
-※ Use Installer
+※ deoplete requires msgpack 1.0.0+ ... Use Installer!
 
 pip install --upgrade pip
 
-cd .vim (Vim8) .config/nvim (Neovim)
+cd .vim (Vim8) 
+
+or
+
+cd .config/nvim (Neovim)
 
 wget https://raw.githubusercontent.com/takkii/totolot/master/install.py
 
