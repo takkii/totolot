@@ -48,7 +48,7 @@ Requirement already satisfied: msgpack>=0.5.0 in /home/takkii/.pyenv/versions/3.
 Requirement already satisfied: greenlet in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pynvim) (0.4.15)
 ```
 
-### ※ Please setup.
+### ※ Please deoplete and totolot Settting.
 
 --------------------------------------------------------------------
 
@@ -83,7 +83,6 @@ or
 ```markdown
 [[plugins]]
 repo = 'takkii/totolot'
-build = 'python3 ./install.py'
 
 [[plugins]]
 repo = 'takkii/ruby-dictionary3'
