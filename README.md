@@ -30,7 +30,7 @@ pip install numpy
 
 pip install --upgrade pip
 
-https://raw.githubusercontent.com/takkii/totolot/master/install.py
+wget https://raw.githubusercontent.com/takkii/totolot/master/install.py
 
 python3 ./install.py
 ```
