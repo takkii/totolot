@@ -114,3 +114,5 @@ venv.bak/
 /.gitignore
 /totolot.ini
 /.vscode/settings.json
+/totolot.zpi
+/totolot.zwi

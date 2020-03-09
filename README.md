@@ -23,7 +23,7 @@ or ( Update pip manually )
 
 python -m pip install --upgrade pip
 
-cd .vim (Vim8) 
+cd .vim (Vim8)
 
 or ( Select The Env Where The Totolot is Used )
 
@@ -31,7 +31,7 @@ cd .config/nvim (Neovim)
 
 wget https://raw.githubusercontent.com/takkii/totolot/master/install.py
 
-python3 ./install.py
+python ./install.py
 
 ※ install.py is Windows10/MacOS/LinuMint Python Work.
 ```
