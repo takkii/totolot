@@ -10,22 +10,26 @@ class InstallerClass:
 
     def msgpy_method(self):
         try:
-            subprocess.check_call(self.msgpy)
+            ret_msgpy = subprocess.run(self.msgpy)
+            ret_msgpy
         except Exception:
             traceback.print_exc()
     def msg_method(self):
         try:
-            subprocess.check_call(self.msg)
+            ret_msg = subprocess.run(self.msg)
+            ret_msg
         except Exception:
             traceback.print_exc()
     def nump_method(self):
         try:
-            subprocess.check_call(self.nump)
+            nump = subprocess.run(self.nump)
+            nump
         except Exception:
             traceback.print_exc()
     def pyn_method(self):
         try:
-            subprocess.check_call(self.pyn)
+            pyn = subprocess.run(self.pyn)
+            pyn
         except Exception:
             traceback.print_exc()
 
