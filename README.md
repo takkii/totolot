@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/takkii/totolot/master/install.py
 
 python3 ./install.py
 
-※ install.py is Windows Python doesn't Work / MacOS and LinuxMint Python Work.
+※ install.py is Windows10 Python doesn't Work / MacOS catalina and LinuxMint(Linux Kernel) Python Work.
 ```
 
 ### Ideal OutPut Results After Running The Installer.
