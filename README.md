@@ -30,6 +30,8 @@ pip install numpy
 
 pip install --upgrade pip
 
+cd .vim (Vim8) .config/nvim (Neovim)
+
 wget https://raw.githubusercontent.com/takkii/totolot/master/install.py
 
 python3 ./install.py
