@@ -10,25 +10,25 @@ class InstallerClass:
 
     def msgpy_method(self):
         try:
-            ret_msgpy = subprocess.run(self.msgpy, encoding='utf-8', stdout=subprocess.PIPE)
+            ret_msgpy = subprocess.run(self.msgpy, encoding='utf-8', stderr=subprocess.PIPE)
             print(ret_msgpy)
         except Exception:
             traceback.print_exc()
     def msg_method(self):
         try:
-            ret_msg = subprocess.run(self.msg, encoding='utf-8', stdout=subprocess.PIPE)
+            ret_msg = subprocess.run(self.msg, encoding='utf-8', stderr=subprocess.PIPE)
             print(ret_msg)
         except Exception:
             traceback.print_exc()
     def nump_method(self):
         try:
-            nump = subprocess.run(self.nump, encoding='utf-8', stdout=subprocess.PIPE)
+            nump = subprocess.run(self.nump, encoding='utf-8', stderr=subprocess.PIPE)
             print(nump)
         except Exception:
             traceback.print_exc()
     def pyn_method(self):
         try:
-            pyn = subprocess.run(self.pyn, encoding='utf-8', stdout=subprocess.PIPE)
+            pyn = subprocess.run(self.pyn, encoding='utf-8', stderr=subprocess.PIPE)
             print(pyn)
         except Exception:
             traceback.print_exc()
