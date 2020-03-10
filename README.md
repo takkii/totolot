@@ -38,23 +38,23 @@ python ./install.py
 
 > If you get an error, Please run with root or clone the project or check python version and run install.py.
 
-### Example (Windows) OutPut Results After Running The Installer.
+### Example (UNIX) OutPut Results After Running The Installer.
 
 ```markdown
 CompletedProcess(args=['python', '-m', 'pip', 'uninstall', 'msgpack-python'], returncode=0, stderr='WARNING: Skipping msgpack-python as it is not installed.\n')
-Requirement already up-to-date: msgpack in d:\python37\lib\site-packages (1.0.0)
+Requirement already up-to-date: msgpack in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (1.0.0)
 CompletedProcess(args=['python', '-m', 'pip', 'install', '-U', 'msgpack'], returncode=0, stderr='')
-Requirement already satisfied: numpy in d:\python37\lib\site-packages (1.18.1)
+Requirement already satisfied: numpy in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (1.18.1)
 CompletedProcess(args=['python', '-m', 'pip', 'install', 'numpy'], returncode=0, stderr='')
-Requirement already satisfied: pynvim in d:\python37\lib\site-packages (0.4.0)
-Requirement already satisfied: msgpack>=0.5.0 in d:\python37\lib\site-packages (from pynvim) (1.0.0)
-Requirement already satisfied: greenlet in d:\python37\lib\site-packages (from pynvim) (0.4.15)
+Requirement already satisfied: pynvim in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (0.4.1)
+Requirement already satisfied: msgpack>=0.5.0 in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pynvim) (1.0.0)
+Requirement already satisfied: greenlet in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pynvim) (0.4.15)
 CompletedProcess(args=['python', '-m', 'pip', 'install', 'pynvim'], returncode=0, stderr='')
-Requirement already satisfied: pandas in d:\python37\lib\site-packages (1.0.1)
-Requirement already satisfied: numpy>=1.13.3 in d:\python37\lib\site-packages (from pandas) (1.18.1)
-Requirement already satisfied: python-dateutil>=2.6.1 in d:\python37\lib\site-packages (from pandas) (2.8.1)
-Requirement already satisfied: pytz>=2017.2 in d:\python37\lib\site-packages (from pandas) (2019.3)
-Requirement already satisfied: six>=1.5 in d:\python37\lib\site-packages (from python-dateutil>=2.6.1->pandas) (1.14.0)
+Requirement already satisfied: pandas in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (1.0.1)
+Requirement already satisfied: numpy>=1.13.3 in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pandas) (1.18.1)
+Requirement already satisfied: python-dateutil>=2.6.1 in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pandas) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from pandas) (2019.3)
+Requirement already satisfied: six>=1.5 in /home/takkii/.pyenv/versions/3.7.6/lib/python3.7/site-packages (from python-dateutil>=2.6.1->pandas) (1.14.0)
 CompletedProcess(args=['python', '-m', 'pip', 'install', 'pandas'], returncode=0, stderr='')
 ```
 
