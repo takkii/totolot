@@ -7,6 +7,7 @@ class InstallerClass:
     msg = ['python', '-m', 'pip', 'install', '-U' ,'msgpack']
     nump = ['python', '-m', 'pip', 'install', 'numpy']
     pyn = ['python', '-m', 'pip', 'install', 'pynvim']
+    pan = ['python', '-m', 'pip', 'install', 'pandas']
 
     def msgpy_method(self):
         try:
@@ -32,11 +33,18 @@ class InstallerClass:
             print(pyn)
         except Exception:
             traceback.print_exc()
+    def pan_method(self):
+        try:
+            pan = subprocess.run(self.pan, encoding='utf-8', stderr=subprocess.PIPE)
+            print(pan)
+        except Exception:
+            traceback.print_exc()
 
 InstClass = InstallerClass()
 InstClass.msgpy_method()
 InstClass.msg_method()
 InstClass.nump_method()
 InstClass.pyn_method()
+InstClass.pan_method()
 
 importlib.reload(site)
