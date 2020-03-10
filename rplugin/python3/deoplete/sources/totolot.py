@@ -1,7 +1,7 @@
-﻿import os, re, sys, traceback
-from deoplete.source.base import Base
+﻿import pandas as pd
+from pandas import Series
+import os, re, sys, traceback
 from os.path import expanduser
-import numpy as np
 
 # ------------------------------- KEYWORD -------------------------------------------------------------------------
 
@@ -25,7 +25,8 @@ else:
     print('どれにも該当しません、ruby-dictionary3を入れてください。')
 
 index_ruby = ruby.readlines()
-sort_ruby = np.sort(index_ruby)
+Seri = Series(index_ruby)
+sort_ruby = Seri.sort_index()
 data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
 ruby.close()
 
