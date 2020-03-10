@@ -26,7 +26,7 @@ else:
     print('どれにも該当しません、ruby-dictionary3を入れてください。')
 
 index_ruby = ruby.readlines()
-Seri = Series(index_ruby)
+Seri = pd.Series(index_ruby)
 sort_ruby = Seri.sort_index()
 data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
 ruby.close()
