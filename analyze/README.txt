@@ -1,5 +1,11 @@
 analayze (分析を行うフォルダです)
 
+セットアップ
+
+cd analayze
+
+python ./install.py
+
 ( 2020/03/11 作成 )
 
 ./ruby-dic3_ana.py
