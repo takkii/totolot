@@ -72,6 +72,8 @@ totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path
 
 Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 
+Congratulations 200 commits / The analyze folder is used for data analysis.
+
 --------------------------------------------------------------------
 
 ### [ Only Use Neovim ]
