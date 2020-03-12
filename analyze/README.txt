@@ -2,7 +2,7 @@ analayze (分析を行うフォルダです)
 
 セットアップ
 
-cd analayze
+wget https://raw.githubusercontent.com/takkii/totolot/master/analyze/install.py
 
 python ./install.py
 
