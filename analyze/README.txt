@@ -1,4 +1,6 @@
-analayze (分析を行うフォルダです)
+./totolot/analayze
+
+( データ分析を行うフォルダです )
 
 セットアップ
 
@@ -8,7 +10,7 @@ python ./install.py
 
 ( 2020/03/11 作成 )
 
-./ruby-dic3_ana.py
+python ./ruby-dic3_ana.py
 
 [ 出力結果 ]
 
@@ -29,7 +31,7 @@ python ./install.py
 
 ※ 読み込む辞書の行数とカウントする文字列を表示しています。
 
-./sklearn_dic.py
+python ./sklearn_dic.py
 
 [ 出力結果 ]
 
