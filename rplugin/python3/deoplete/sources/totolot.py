@@ -23,7 +23,7 @@ elif os.path.exists(d3):
     ruby = open(os.path.expanduser(
         "~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
 else:
-    print("Don't fortget,install ruby-dictionary3.")
+    print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
 
 index_ruby = ruby.readlines()
 Seri = pd.Series(index_ruby)
