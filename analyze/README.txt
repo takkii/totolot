@@ -1,14 +1,16 @@
-./totolot/analayze
+./totolot/analyze
 
 ( データ分析を行うフォルダです )
 
-セットアップ
+~~ 初期設定 ~~
 
 wget https://raw.githubusercontent.com/takkii/totolot/master/analyze/install.py
 
 python ./install.py
 
 ( 2020/03/11 作成 )
+
+~~ 実行 ~~
 
 python ./ruby-dic3_ana.py
 
