@@ -1,4 +1,4 @@
-import sys, traceback
+import traceback
 import subprocess
 import importlib, site
 
