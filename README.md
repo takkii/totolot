@@ -112,6 +112,8 @@ Totolot is Vim8/Neovim Plugins, Vim8 set path '~/.cache/dein'
 
 #### totolot Sample picture to views [Do_your_Best!]
 
+![do_your_best](https://github.com/takkii/totolot/blob/master/images/totolot_sei.gif)
+
 ![background](https://github.com/takkii/totolot/blob/master/images/background.gif)
 
 #### totolot images icon
