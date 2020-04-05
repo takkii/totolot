@@ -1,5 +1,5 @@
-import requests
+import requests,re
 
 response = requests.get('https://corona-stats.online/Japan')
-
-print(response.text)
+pat = re.compile(r"<[^>]*?>")
+print(pat.sub("", response.text))
