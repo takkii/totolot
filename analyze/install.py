@@ -6,6 +6,7 @@ class InstallerClass:
     sci = ['python', '-m', 'pip', 'install', 'scikit-learn']
     nump = ['python', '-m', 'pip', 'install', 'numpy']
     pan = ['python', '-m', 'pip', 'install', 'pandas']
+    req = ['python', '-m', 'pip', 'install', 'requests']
 
     def sci_method(self):
         try:
@@ -25,10 +26,17 @@ class InstallerClass:
             print(pan)
         except Exception:
             traceback.print_exc()
+    def req_method(self):
+        try:
+            req = subprocess.run(self.req, encoding='utf-8', stderr=subprocess.PIPE)
+            print(req)
+        except Exception:
+            traceback.print_exc()
 
 InstClass = InstallerClass()
 InstClass.sci_method()
 InstClass.nump_method()
 InstClass.pan_method()
+InstClass.req_method()
 
 importlib.reload(site)
