@@ -10,6 +10,28 @@ python ./install.py
 
 ( 2020/03/11 作成 )
 
+```markdown
+Requirement already satisfied: scikit-learn in d:\python37\lib\site-packages (0.22.2.post1)
+Requirement already satisfied: numpy>=1.11.0 in d:\python37\lib\site-packages (from scikit-learn) (1.18.2)
+Requirement already satisfied: scipy>=0.17.0 in d:\python37\lib\site-packages (from scikit-learn) (1.4.1)
+Requirement already satisfied: joblib>=0.11 in d:\python37\lib\site-packages (from scikit-learn) (0.14.1)
+CompletedProcess(args=['python', '-m', 'pip', 'install', 'scikit-learn'], returncode=0, stderr='')
+Requirement already satisfied: numpy in d:\python37\lib\site-packages (1.18.2)
+CompletedProcess(args=['python', '-m', 'pip', 'install', 'numpy'], returncode=0, stderr='')
+Requirement already satisfied: pandas in d:\python37\lib\site-packages (1.0.3)
+Requirement already satisfied: python-dateutil>=2.6.1 in d:\python37\lib\site-packages (from pandas) (2.8.1)
+Requirement already satisfied: pytz>=2017.2 in d:\python37\lib\site-packages (from pandas) (2019.3)
+Requirement already satisfied: numpy>=1.13.3 in d:\python37\lib\site-packages (from pandas) (1.18.2)
+Requirement already satisfied: six>=1.5 in d:\python37\lib\site-packages (from python-dateutil>=2.6.1->pandas) (1.14.0)
+CompletedProcess(args=['python', '-m', 'pip', 'install', 'pandas'], returncode=0, stderr='')
+Requirement already satisfied: requests in d:\python37\lib\site-packages (2.23.0)
+Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in d:\python37\lib\site-packages (from requests) (1.25.8)
+Requirement already satisfied: chardet<4,>=3.0.2 in d:\python37\lib\site-packages (from requests) (3.0.4)
+Requirement already satisfied: idna<3,>=2.5 in d:\python37\lib\site-packages (from requests) (2.9)
+Requirement already satisfied: certifi>=2017.4.17 in d:\python37\lib\site-packages (from requests) (2019.11.28)
+CompletedProcess(args=['python', '-m', 'pip', 'install', 'requests'], returncode=0, stderr='')
+```
+
 ~~ 実行 ~~
 
 python ./ruby-dic3_ana.py
