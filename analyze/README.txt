@@ -10,7 +10,6 @@ python ./install.py
 
 ( 2020/03/11 作成 )
 
-```markdown
 Requirement already satisfied: scikit-learn in d:\python37\lib\site-packages (0.22.2.post1)
 Requirement already satisfied: numpy>=1.11.0 in d:\python37\lib\site-packages (from scikit-learn) (1.18.2)
 Requirement already satisfied: scipy>=0.17.0 in d:\python37\lib\site-packages (from scikit-learn) (1.4.1)
@@ -30,7 +29,6 @@ Requirement already satisfied: chardet<4,>=3.0.2 in d:\python37\lib\site-package
 Requirement already satisfied: idna<3,>=2.5 in d:\python37\lib\site-packages (from requests) (2.9)
 Requirement already satisfied: certifi>=2017.4.17 in d:\python37\lib\site-packages (from requests) (2019.11.28)
 CompletedProcess(args=['python', '-m', 'pip', 'install', 'requests'], returncode=0, stderr='')
-```
 
 ~~ 実行 ~~
 
