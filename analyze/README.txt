@@ -91,4 +91,4 @@ Last Updated on: 05-Apr-2020 05:04 UTC
 US STATES API: https://corona-stats.online/states/us
 HELP: https://corona-stats.online/help
 
-※ 要らないタグを削除してあります。
+※ 実行すると適用されているCSSが表示されます。
