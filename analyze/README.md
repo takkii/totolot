@@ -1,15 +1,20 @@
-./totolot/analyze
+### ./totolot/analyze
 
+```markdown
 ( データ分析を行うフォルダです )
+```
 
-~~ 初期設定 ~~
+#### ~~ 初期設定 ~~
 
+```markdown
 wget https://raw.githubusercontent.com/takkii/totolot/master/analyze/install.py
 
 python ./install.py
+```
 
-( 2020/03/11 作成 )
+#### ( 2020/03/11 作成 )
 
+```markdown
 Requirement already satisfied: scikit-learn in d:\python37\lib\site-packages (0.22.2.post1)
 Requirement already satisfied: numpy>=1.11.0 in d:\python37\lib\site-packages (from scikit-learn) (1.18.2)
 Requirement already satisfied: scipy>=0.17.0 in d:\python37\lib\site-packages (from scikit-learn) (1.4.1)
@@ -29,13 +34,17 @@ Requirement already satisfied: chardet<4,>=3.0.2 in d:\python37\lib\site-package
 Requirement already satisfied: idna<3,>=2.5 in d:\python37\lib\site-packages (from requests) (2.9)
 Requirement already satisfied: certifi>=2017.4.17 in d:\python37\lib\site-packages (from requests) (2019.11.28)
 CompletedProcess(args=['python', '-m', 'pip', 'install', 'requests'], returncode=0, stderr='')
+```
 
-~~ 実行 ~~
+### ~~ 実行 ~~
 
+```markdown
 python ./ruby-dic3_ana.py
+```
 
-[ 出力結果 ]
+#### [ 出力結果 ]
 
+```markdown
                    0
 0          nesting\n
 1     used_modules\n
@@ -50,13 +59,17 @@ python ./ruby-dic3_ana.py
 2626           reiwa
 
 [2627 rows x 1 columns]
+```
 
-※ 読み込む辞書の行数とカウントする文字列を表示しています。
+#### ※ 読み込む辞書の行数とカウントする文字列を表示しています。
 
+```markdown
 python ./sklearn_dic.py
+```
 
-[ 出力結果 ]
+### [ 出力結果 ]
 
+```markdown
       __callee__  __dir__  __end__  __id__  __method__  __name__  ...  yielder  zero  zerodivisionerror  zip  zone  zoom
 0            0.0      0.0      0.0     0.0         0.0       0.0  ...      0.0   0.0                0.0  0.0   0.0   0.0
 1            0.0      0.0      0.0     0.0         0.0       0.0  ...      0.0   0.0                0.0  0.0   0.0   0.0
@@ -71,9 +84,11 @@ python ./sklearn_dic.py
 2626         0.0      0.0      0.0     0.0         0.0       0.0  ...      0.0   0.0                0.0  0.0   0.0   0.0
 
 [2627 rows x 2019 columns]
+```
 
-※ 重複していないことが数字でわかります。
+#### ※ 重複していないことが数字でわかります。
 
+```markdown
 Coronavirus Tracker
 
 ╔══════╤════════════╤══════════════╤═════════════╤══════════════╤══════════════╤═══════════╤═══════════╤══════════╤════════════════╗
@@ -93,7 +108,10 @@ Last Updated on: 09-Apr-2020 06:04 UTC
 US STATES API: https://corona-stats.online/states/us
 HELP: https://corona-stats.online/help
 SPONSORED BY: ZEIT NOW
+```
 
-※ CSSを非表示にしました。
+#### ※ CSSを非表示にしました。
 
 ![corona_ja_result](https://github.com/takkii/totolot/blob/master/images/corona_ja_result.png)
+
+### Tcl/TkをPythonで使いGUI表示しました。
