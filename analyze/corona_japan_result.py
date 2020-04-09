@@ -11,7 +11,7 @@ soup = BeautifulSoup(response.text,"lxml")
 [s.decompose() for s in soup('style')]
 pat = re.compile(r"<[^>]*?>")
 corona_ja_result = (pat.sub("", soup.text))
-#print(corona_ja_result)
+print(corona_ja_result)
 tk.Label(root,text=str(corona_ja_result)).pack(fill=tk.X)
 root.mainloop()
 
