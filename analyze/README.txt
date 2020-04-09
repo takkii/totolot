@@ -92,4 +92,4 @@ US STATES API: https://corona-stats.online/states/us
 HELP: https://corona-stats.online/help
 SPONSORED BY: ZEIT NOW
 
-※ 実行すると適用されているCSSが表示されます。
+※ CSSを非表示にしました。
