@@ -10,10 +10,11 @@
 
 --------------------------------------------------------------------
 
-[ Need [deoplete.nvim](https://github.com/Shougo/deoplete.nvim) ]
+##### Need [deoplete.nvim](https://github.com/Shougo/deoplete.nvim)
+
+##### ※ deoplete requires [msgpack](https://pypi.org/project/msgpack/) 1.0.0+
 
 ```markdown
-※「 deoplete requires msgpack 1.0.0+ 」
 
 When you don't understand problem Use Installer!
 
