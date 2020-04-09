@@ -131,6 +131,10 @@ SPONSORED BY: ZEIT NOW
 
 #### ※ CSSを非表示にしました。
 
-![corona_ja_result](https://github.com/takkii/totolot/blob/master/images/corona_ja_result.png)
+![corona_ja_result_image](https://github.com/takkii/totolot/blob/master/images/corona_ja_result.png)
 
 ### PythonでTcl/Tkを使用しコンソール画像を表示しました。
+
+![corona_ja_result_movie](https://github.com/takkii/totolot/blob/master/images/corona_movie.gif)
+
+### Pythonを実行する様子を動画にしました。
