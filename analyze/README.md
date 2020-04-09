@@ -114,4 +114,4 @@ SPONSORED BY: ZEIT NOW
 
 ![corona_ja_result](https://github.com/takkii/totolot/blob/master/images/corona_ja_result.png)
 
-### Tcl/TkをPythonで使いGUI表示しました。
+### PythonでTcl/Tkを使用しコンソール画像を表示しました。
