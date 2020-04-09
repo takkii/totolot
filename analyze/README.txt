@@ -74,6 +74,8 @@ python ./sklearn_dic.py
 
 ※ 重複していないことが数字でわかります。
 
+Coronavirus Tracker
+
 ╔══════╤════════════╤══════════════╤═════════════╤══════════════╤══════════════╤═══════════╤═══════════╤══════════╤════════════════╗
 ║ Rank │ Country    │ Total Cases  │ New Cases ▲ │ Total Deaths │ New Deaths ▲ │ Recovered │ Active    │ Critical │ Cases / 1M pop ║
 ╟──────┼────────────┼──────────────┼─────────────┼──────────────┼──────────────┼───────────┼───────────┼──────────┼────────────────╢
@@ -86,7 +88,7 @@ Stay safe. Stay inside.
 Code: https://github.com/sagarkarira/coronavirus-tracker-cli
 Twitter: https://twitter.com/ekrysis
 
-Last Updated on: 09-Apr-2020 05:04 UTC
+Last Updated on: 09-Apr-2020 06:04 UTC
 
 US STATES API: https://corona-stats.online/states/us
 HELP: https://corona-stats.online/help
