@@ -24,20 +24,20 @@ class InstallerClass:
             traceback.print_exc()
     def nump_method(self):
         try:
-            nump = subprocess.run(self.nump, encoding='utf-8', stderr=subprocess.PIPE)
-            print(nump)
+            ret_nump = subprocess.run(self.nump, encoding='utf-8', stderr=subprocess.PIPE)
+            print(ret_nump)
         except Exception:
             traceback.print_exc()
     def pyn_method(self):
         try:
-            pyn = subprocess.run(self.pyn, encoding='utf-8', stderr=subprocess.PIPE)
-            print(pyn)
+            ret_pyn = subprocess.run(self.pyn, encoding='utf-8', stderr=subprocess.PIPE)
+            print(ret_pyn)
         except Exception:
             traceback.print_exc()
     def pan_method(self):
         try:
-            pan = subprocess.run(self.pan, encoding='utf-8', stderr=subprocess.PIPE)
-            print(pan)
+            ret_pan = subprocess.run(self.pan, encoding='utf-8', stderr=subprocess.PIPE)
+            print(ret_pan)
         except Exception:
             traceback.print_exc()
 
