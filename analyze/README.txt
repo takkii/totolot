@@ -95,3 +95,5 @@ HELP: https://corona-stats.online/help
 SPONSORED BY: ZEIT NOW
 
 ※ CSSを非表示にしました。
+
+![corona_ja_result](https://github.com/takkii/totolot/blob/master/images/corona_ja_result.png)
