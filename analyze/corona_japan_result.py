@@ -1,5 +1,10 @@
-import requests,re
+import re
+from requests_html import HTMLSession
+from bs4 import BeautifulSoup
 
-response = requests.get('https://corona-stats.online/Japan')
+session = HTMLSession()
+response = session.get('https://corona-stats.online/Japan')
+soup = BeautifulSoup(response.text,"lxml")
+[s.decompose() for s in soup('style')]
 pat = re.compile(r"<[^>]*?>")
-print(pat.sub("", response.text))
+print(pat.sub("", soup.text))
