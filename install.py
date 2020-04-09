@@ -4,7 +4,8 @@ import importlib, site
 
 class InstallerClass:
     msgpy = ['python', '-m', 'pip', 'uninstall', 'msgpack-python']
-    msg = ['python', '-m', 'pip', 'install', '-U' ,'msgpack']
+    #msg = ['python', '-m', 'pip', 'install', '-U' ,'msgpack']
+    msg = ['python', '-m', 'pip', 'install', 'msgpack==1.0.0']
     nump = ['python', '-m', 'pip', 'install', 'numpy']
     pyn = ['python', '-m', 'pip', 'install', 'pynvim']
     pan = ['python', '-m', 'pip', 'install', 'pandas']
