@@ -6,7 +6,8 @@ class InstallerClass:
     sci = ['python', '-m', 'pip', 'install', 'scikit-learn']
     nump = ['python', '-m', 'pip', 'install', 'numpy']
     pan = ['python', '-m', 'pip', 'install', 'pandas']
-    req = ['python', '-m', 'pip', 'install', 'requests']
+    req = ['python', '-m', 'pip', 'install', 'requests-html']
+    bs4 = ['python', '-m', 'pip', 'install', 'beautifulsoup4']
 
     def sci_method(self):
         try:
@@ -32,11 +33,18 @@ class InstallerClass:
             print(req)
         except Exception:
             traceback.print_exc()
+    def bs4_method(self):
+        try:
+            bs4 = subprocess.run(self.req, encoding='utf-8', stderr=subprocess.PIPE)
+            print(bs4)
+        except Exception:
+            traceback.print_exc()
 
 InstClass = InstallerClass()
 InstClass.sci_method()
 InstClass.nump_method()
 InstClass.pan_method()
 InstClass.req_method()
+InstClass.bs4_method()
 
 importlib.reload(site)
