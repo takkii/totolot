@@ -106,10 +106,10 @@ elif sys.version_info[0] == 3:
        InstClass.bs4_method()
 
     else:
-       print("Windows and MacOS and Linux other OS not supported.")
+       print("Installer does not support OS other than Windows, MacOS and Linux kernel.")
 
 
 else:
-  print("Python2 and Python3 Version is No match.")
+  print("A version other than Python2 and Python3. Does not match.")
 
 importlib.reload(site)
