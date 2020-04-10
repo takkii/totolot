@@ -83,11 +83,11 @@ elif sys.version_info[0] == 3:
     pf = platform.system()
     if pf == 'Windows':
        InstClass = InstallerClass()
-       InstClass.sci_method()
-       InstClass.nump_method()
-       InstClass.pan_method()
-       InstClass.req_method()
-       InstClass.bs4_method()
+       InstClass.sci_win_method()
+       InstClass.nump_win_method()
+       InstClass.pan_win_method()
+       InstClass.req_win_method()
+       InstClass.bs4_win_method()
 
     elif pf == 'Darwin':
        InstClass = InstallerClass()
