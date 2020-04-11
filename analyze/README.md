@@ -141,3 +141,7 @@ SPONSORED BY: ZEIT NOW
 ![corona_ja_result_movie](https://github.com/takkii/totolot/blob/master/images/corona_movie.gif)
 
 ### Pythonを実行する様子を動画にしました。
+
+Dice shuffle 5 times ... ⚂ ⚁ ⚁ ⚁ ⚁
+
+### サイコロを5回シャッフルしてみました。
