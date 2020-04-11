@@ -28,7 +28,6 @@ index_ruby = ruby.readlines()
 Seri = pd.Series(index_ruby)
 sort_ruby = Seri.sort_index()
 data_ruby = DataFrame(sort_ruby)
-# data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
 print(data_ruby)
 ruby.close()
 
