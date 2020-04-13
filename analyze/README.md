@@ -145,3 +145,187 @@ SPONSORED BY: ZEIT NOW
 Dice shuffle 5 times ... ⚂ ⚁ ⚁ ⚁ ⚁
 
 ### サイコロを5回シャッフルしてみました。
+
+```markdown
+現在の設定では、JavaScriptを利用できません。有効にしてお使いくださいませ。
+
+
+RSSアンテナ
+
+
+
+
+
+
+ ～ GitHubの作業記録をRSSフィードで表示します ～
+
+
+
+
+
+
+[これより、30タイトル程ずつ履歴表示します]
+
+
+
+
+
+
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月13日 05時55分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月11日 12時01分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月11日 09時57分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月11日 05時08分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月10日 13時50分
+
+takkii created a tag 1.6.7 in takkii/totolot
+
+投稿時刻 ： 2020年04月10日 13時47分
+
+takkii released もの想うトトロット at takkii/totolot
+
+投稿時刻 ： 2020年04月10日 13時47分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月10日 09時44分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月10日 09時17分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月10日 07時12分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月10日 07時10分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 22時50分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 13時46分
+
+takkii created a tag 1.6.6.1 in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 10時15分
+
+takkii released 大魔神トトロット改🚌 at takkii/totolot
+
+投稿時刻 ： 2020年04月09日 10時15分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 10時12分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 10時10分
+
+takkii created a tag 1.6.6 in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 09時48分
+
+takkii released 大魔神トトロット✴ at takkii/totolot
+
+投稿時刻 ： 2020年04月09日 09時48分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 08時45分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 08時29分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 08時27分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 08時11分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 08時10分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 08時03分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 08時02分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 07時59分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 07時25分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 07時23分
+
+takkii pushed to master in takkii/totolot
+
+投稿時刻 ： 2020年04月09日 06時38分
+
+
+
+
+
+
+
+
+
+
+
+RSSアンテナ立ち上げ記念日 / 2016年2月5日
+
+
+
+西暦:2020年04月13日
+
+和暦:令和2年4月13日
+
+
+
+
+
+
+
+
+Ruby_VERSION : 2.7.1 Sinatra_VERSION : 2.0.8.1
+
+
+
+Copyright 2016～2020 Takayuki Kamiyama All Rights Reserved.
+
+
+
+Designed by NyaSoCom
+```
+
+### RSS表示しました。
