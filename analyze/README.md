@@ -142,7 +142,13 @@ SPONSORED BY: ZEIT NOW
 
 ### Pythonを実行する様子を動画にしました。
 
-Dice shuffle 5 times ... ⚂ ⚁ ⚁ ⚁ ⚁
+```markdown
+Dice shuffle 5 times [心] ... ⚁ ⚅ ⚃ ⚃ ⚂
+
+or
+
+Dice shuffle 5 times [義] ... ⚂ ⚅ ⚂ ⚂ ⚅
+```
 
 ### サイコロを5回シャッフルしてみました。
 
