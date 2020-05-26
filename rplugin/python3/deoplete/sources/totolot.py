@@ -1,4 +1,4 @@
-﻿import pandas as pd
+import pandas as pd
 from pandas import Series
 import os, re, sys, traceback
 from deoplete.source.base import Base
@@ -14,14 +14,17 @@ d2 = os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3
 d3 = os.path.expanduser("~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
 
 if os.path.exists(d1):
-    ruby = open(os.path.expanduser(
-        "~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+    ruby_method = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+    rubymotion_method = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/rubymotion_method"))
+    ruby = ruby_method + rubymotion_method
 elif os.path.exists(d2):
-    ruby = open(os.path.expanduser(
-        "~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+    ruby_method = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+    rubymotion_method = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rubymotion_method"))
+    ruby = ruby_method + rubymotion_method
 elif os.path.exists(d3):
-    ruby = open(os.path.expanduser(
-        "~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+    ruby_method = open(os.path.expanduser("~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
+    rubymotion_method = open(os.path.expanduser("~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/rubymotion_method"))
+    ruby = ruby_method + rubymotion_method
 else:
     print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
 
