@@ -25,7 +25,7 @@ elif os.path.exists(d3):
 else:
     print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
 
-index_ruby = ruby_method.readlines() + rubymotion_method.readline()
+index_ruby = list(ruby_method.readlines()) + list(rubymotion_method.readline())
 Seri = pd.Series(index_ruby)
 sort_ruby = Seri.sort_index()
 data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
