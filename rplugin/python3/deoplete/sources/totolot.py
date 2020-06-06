@@ -1,6 +1,9 @@
+import os
+import re
+import sys
+import traceback
 import pandas as pd
 from pandas import Series
-import os, re, sys, traceback
 from deoplete.source.base import Base
 from os.path import expanduser
 
