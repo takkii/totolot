@@ -73,6 +73,8 @@ Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
 
 Congratulations 200 commits / The analyze folder is used for data analysis.
 
+※ [Pylean](https://github.com/takkii/Pylean) totolot analyze folder moved.
+
 --------------------------------------------------------------------
 
 ### [ Only Use Neovim ]
