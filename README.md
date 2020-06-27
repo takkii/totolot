@@ -35,6 +35,10 @@ wget https://raw.githubusercontent.com/takkii/totolot/master/install.py
 python ./install.py
 
 ※ install.py is Windows10/MacOS/LinuMint Python Work.
+
+or Python pip3 functions.
+
+pip3 install -r requirements.txt
 ```
 
 ### Example (UNIX) OutPut Results After Running The Installer.
