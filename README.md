@@ -34,7 +34,7 @@ wget https://raw.githubusercontent.com/takkii/totolot/master/install.py
 
 python ./install.py
 
-※ install.py is Windows10/MacOS/LinuMint Python Work.
+※ install.py is Windows10/MacOS/Linux kernel Python Work.
 
 or Python pip3 functions.
 
