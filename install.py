@@ -1,7 +1,9 @@
-import sys, traceback
-import subprocess, platform
-import importlib, site
-
+import importlib
+import platform
+import site
+import subprocess
+import sys
+import traceback
 
 class InstallerClass:
     msgpy = ['python3', '-m', 'pip', 'uninstall', 'msgpack-python']
