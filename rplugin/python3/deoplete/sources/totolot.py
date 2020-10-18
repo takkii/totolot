@@ -10,20 +10,22 @@ from os.path import expanduser
 
 home = expanduser("~")
 
-d1 = os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
-d2 = os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/")
-d3 = os.path.expanduser("~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/")
+rel_path = "repos/github.com/takkii/ruby-dictionary3/"
+paths = [os.path.expanduser(os.path.join(p, rel_path)) for p in [
+    "~/.cache/dein/",
+    "~/.local/share/dein/",
+    "~/.config/nvim/.cache/dein/",
+    "~/.config/nvim/",
+    "~/.vim/bundles"
+]]
 
-if os.path.exists(d1):
-    ruby_method = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-    rubymotion_method = open(os.path.expanduser("~/.config/nvim/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/rubymotion_method"))
-elif os.path.exists(d2):
-    ruby_method = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-    rubymotion_method = open(os.path.expanduser("~/.config/nvim/repos/github.com/takkii/ruby-dictionary3/autoload/source/rubymotion_method"))
-elif os.path.exists(d3):
-    ruby_method = open(os.path.expanduser("~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/ruby_method_deoplete"))
-    rubymotion_method = open(os.path.expanduser("~/.cache/dein/repos/github.com/takkii/ruby-dictionary3/autoload/source/rubymotion_method"))
-else:
+try:
+    path = next(p for p in paths if os.path.exists(p))
+
+    ruby_method = open(os.path.join(path, "autoload/source/ruby_method_deoplete"))
+    rubymotion_method = open(os.path.join(path, "autoload/source/rubymotion_method"))
+
+except StopIteration:
     print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
 
 index_ruby = list(ruby_method.readlines()) + list(rubymotion_method.readlines())
