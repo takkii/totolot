@@ -111,8 +111,11 @@ repo = 'takkii/ruby-dictionary3'
 
 ```markdown
 
-Totolot is Vim8/Neovim Plugins, Vim8 set path '~/.cache/dein'
+Totolot is Vim8/Neovim Plugins
 
+Load PATH
+
+"~/.cache/dein/",　"~/.local/share/dein/",　"~/.config/nvim/.cache/dein/",　"~/.config/nvim/",　"~/.vim/bundles"
 ```
 
 #### totolot Sample picture to views [Do_your_Best!]
