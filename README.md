@@ -118,6 +118,12 @@ Load PATH
 "~/.cache/dein/",　"~/.local/share/dein/",　"~/.config/nvim/.cache/dein/",　"~/.config/nvim/",　"~/.vim/bundles"
 ```
 
+### Qiita (日本語)
+
+> [vim-hug-neovim-rpc] Vim(pythonx):ImportError: cannot import name 'unpackb' from 'msgpack' (unknown location)
+
+[Qiitaの記事](https://qiita.com/takkii/items/69b091c39235f97589cc)
+
 #### totolot Sample picture to views [Do_your_Best!]
 
 ![do_your_best](https://github.com/takkii/totolot/blob/master/images/totolot_sei.gif)
