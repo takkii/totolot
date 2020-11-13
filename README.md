@@ -61,7 +61,7 @@ Requirement already satisfied: six>=1.5 in /home/takkii/.pyenv/versions/3.7.6/li
 CompletedProcess(args=['python', '-m', 'pip', 'install', 'pandas'], returncode=0, stderr='')
 ```
 
-### ※ Please deoplete and totolot Settting.
+### Please deoplete and totolot Settting.
 
 --------------------------------------------------------------------
 
@@ -71,11 +71,19 @@ other you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
 
 --------------------------------------------------------------------
 
+### Change Log
+
 totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path.
 
 <s> Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab). </s>
 
-PR, merge. If necessary, revert.
+PR, merge. If necessary, MinTab revert to a conditional branch.
+
+#### Thanks for the PR. 
+
+The list of [るりま](https://docs.ruby-lang.org/ja/) has been added.
+
+[takkii/Jet-black-wings](https://github.com/takkii/Jet-black-wings) no longer have to be used together.
 
 Congratulations 200 commits / The analyze folder is used for data analysis.
 
@@ -109,15 +117,19 @@ repo = 'takkii/ruby-dictionary3'
 
 --------------------------------------------------------------------
 
-#### It is necessary to load ruby-dictionary3.
+### It is necessary to load ruby-dictionary3.
 
 ```markdown
 
 Totolot is Vim8/Neovim Plugins
 
-Load PATH
+Load PATH Reference.
 
-"~/.cache/dein/",　"~/.local/share/dein/",　"~/.config/nvim/.cache/dein/",　"~/.config/nvim/",　"~/.vim/bundles"
+~/.cache/dein/
+~/.local/share/dein/　
+~/.config/nvim/.cache/dein/　
+~/.config/nvim/　
+~/.vim/bundles/
 ```
 
 ### Qiita (日本語)
@@ -126,7 +138,7 @@ Load PATH
 
 [Qiitaの記事](https://qiita.com/takkii/items/69b091c39235f97589cc)
 
-#### totolot Sample picture to views [Do_your_Best!]
+#### totolot Sample picture to views [Do_your_Best!] new changed [ruby_dictionary3]
 
 ![do_your_best](https://github.com/takkii/totolot/blob/master/images/totolot_sei.gif)
 
