@@ -73,7 +73,9 @@ other you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
 
 totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path.
 
-Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
+<s> Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab). </s>
+
+PR, merge. If necessary, revert.
 
 Congratulations 200 commits / The analyze folder is used for data analysis.
 
@@ -117,6 +119,12 @@ Load PATH
 
 "~/.cache/dein/",　"~/.local/share/dein/",　"~/.config/nvim/.cache/dein/",　"~/.config/nvim/",　"~/.vim/bundles"
 ```
+
+### Qiita (日本語)
+
+> [vim-hug-neovim-rpc] Vim(pythonx):ImportError: cannot import name 'unpackb' from 'msgpack' (unknown location)
+
+[Qiitaの記事](https://qiita.com/takkii/items/69b091c39235f97589cc)
 
 #### totolot Sample picture to views [Do_your_Best!]
 
