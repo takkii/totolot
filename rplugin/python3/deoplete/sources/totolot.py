@@ -24,11 +24,13 @@ try:
 
     ruby_method = open(os.path.join(path, "autoload/source/ruby_method_deoplete"))
     rubymotion_method = open(os.path.join(path, "autoload/source/rubymotion_method"))
+    rurima_list = open(os.path.join(path, "autoload/source/rurima_list"))
 
 except StopIteration:
     print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
 
-index_ruby = list(ruby_method.readlines()) + list(rubymotion_method.readlines())
+index_ruby = list(ruby_method.readlines()) + list(rubymotion_method.readlines()) + list(rurima_list.readlines())
+
 Seri = pd.Series(index_ruby)
 sort_ruby = Seri.sort_index()
 data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
