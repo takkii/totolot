@@ -75,7 +75,9 @@ totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path
 
 <s> Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab). </s>
 
-PR, merge. If necessary, revert.
+PR, merge. If necessary, MinTab revert to a conditional branch.
+
+#### Thanks for the PR.
 
 Congratulations 200 commits / The analyze folder is used for data analysis.
 
@@ -117,7 +119,11 @@ Totolot is Vim8/Neovim Plugins
 
 Load PATH
 
-"~/.cache/dein/",　"~/.local/share/dein/",　"~/.config/nvim/.cache/dein/",　"~/.config/nvim/",　"~/.vim/bundles"
+~/.cache/dein/
+~/.local/share/dein/　
+~/.config/nvim/.cache/dein/　
+~/.config/nvim/　
+~/.vim/bundles
 ```
 
 ### Qiita (日本語)
@@ -126,7 +132,7 @@ Load PATH
 
 [Qiitaの記事](https://qiita.com/takkii/items/69b091c39235f97589cc)
 
-#### totolot Sample picture to views [Do_your_Best!]
+#### totolot Sample picture to views [Do_your_Best!] new changed [ruby_dictionary3]
 
 ![do_your_best](https://github.com/takkii/totolot/blob/master/images/totolot_sei.gif)
 
