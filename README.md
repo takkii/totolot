@@ -140,6 +140,8 @@ Load PATH Reference.
 
 #### totolot Sample picture to views [Do_your_Best!] new changed [ruby-dictionary3]
 
+![ruby-dictionary3](https://github.com/takkii/totolot/blob/master/images/rruby-dictionary3.gif)
+
 ![do_your_best](https://github.com/takkii/totolot/blob/master/images/totolot_sei.gif)
 
 ![background](https://github.com/takkii/totolot/blob/master/images/background.gif)
