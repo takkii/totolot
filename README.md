@@ -61,7 +61,7 @@ Requirement already satisfied: six>=1.5 in /home/takkii/.pyenv/versions/3.7.6/li
 CompletedProcess(args=['python', '-m', 'pip', 'install', 'pandas'], returncode=0, stderr='')
 ```
 
-### ※ Please deoplete and totolot Settting.
+### Please deoplete and totolot Settting.
 
 --------------------------------------------------------------------
 
@@ -70,6 +70,8 @@ CompletedProcess(args=['python', '-m', 'pip', 'install', 'pandas'], returncode=0
 other you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
 
 --------------------------------------------------------------------
+
+### Change Log
 
 totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path.
 
@@ -113,7 +115,7 @@ repo = 'takkii/ruby-dictionary3'
 
 --------------------------------------------------------------------
 
-#### It is necessary to load ruby-dictionary3.
+### It is necessary to load ruby-dictionary3.
 
 ```markdown
 
