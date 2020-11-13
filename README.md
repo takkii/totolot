@@ -138,7 +138,7 @@ Load PATH Reference.
 
 [Qiitaの記事](https://qiita.com/takkii/items/69b091c39235f97589cc)
 
-#### totolot Sample picture to views [Do_your_Best!] new changed [ruby_dictionary3]
+#### totolot Sample picture to views [Do_your_Best!] new changed [ruby-dictionary3]
 
 ![do_your_best](https://github.com/takkii/totolot/blob/master/images/totolot_sei.gif)
 
