@@ -77,7 +77,9 @@ totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path
 
 PR, merge. If necessary, MinTab revert to a conditional branch.
 
-#### Thanks for the PR.
+#### Thanks for the PR. 
+
+[takkii/Jet-black-wings](https://github.com/takkii/Jet-black-wings) no longer have to be used together.
 
 Congratulations 200 commits / The analyze folder is used for data analysis.
 
