@@ -73,7 +73,9 @@ other you use, ['takkii/Bignyanco'](https://github.com/takkii/Bignyanco).
 
 totolot [ruby-dictionary3](https://github.com/takkii/ruby-dictionary3) read path.
 
-Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab).
+<s> Conditional branch Transplant from [MinTab](https://github.com/takkii/MinTab). </s>
+
+PR, merge. If necessary, revert.
 
 Congratulations 200 commits / The analyze folder is used for data analysis.
 
