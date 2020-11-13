@@ -81,6 +81,8 @@ PR, merge. If necessary, MinTab revert to a conditional branch.
 
 #### Thanks for the PR. 
 
+The list of [るりま](https://docs.ruby-lang.org/ja/) has been added.
+
 [takkii/Jet-black-wings](https://github.com/takkii/Jet-black-wings) no longer have to be used together.
 
 Congratulations 200 commits / The analyze folder is used for data analysis.
