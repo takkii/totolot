@@ -119,13 +119,13 @@ repo = 'takkii/ruby-dictionary3'
 
 Totolot is Vim8/Neovim Plugins
 
-Load PATH
+Load PATH Reference.
 
 ~/.cache/dein/
 ~/.local/share/dein/　
 ~/.config/nvim/.cache/dein/　
 ~/.config/nvim/　
-~/.vim/bundles
+~/.vim/bundles/
 ```
 
 ### Qiita (日本語)
