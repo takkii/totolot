@@ -89,6 +89,8 @@ Congratulations 200 commits / The analyze folder is used for data analysis.
 
 ※ [Pylean](https://github.com/takkii/Pylean) totolot analyze folder moved.
 
+Setting to display the number of deoplete to [30 digits](https://github.com/takkii/dotvim/blob/main/rc/dein_lazy.toml#L11)
+
 --------------------------------------------------------------------
 
 ### [ Only Use Neovim ]
