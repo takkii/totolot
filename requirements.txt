@@ -2,4 +2,3 @@ msgpack-python
 msgpack == 1.0.0
 numpy
 pynvim
-numba

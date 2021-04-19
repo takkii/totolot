@@ -3,7 +3,6 @@ import re
 from operator import itemgetter
 
 import numpy as np
-from numba import jit
 from deoplete.source.base import Base
 
 class Source(Base):
@@ -21,7 +20,6 @@ class Source(Base):
         m = re.search('[a-zA-Z0-9_?!]*$', context['input'])
         return m.start() if m else -1
 
-    @jit
     def gather_candidates(self, context):
         try:
             rel_path = "repos/github.com/takkii/ruby-dictionary3/"
