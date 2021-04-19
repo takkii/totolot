@@ -22,17 +22,17 @@ class Source(Base):
         return m.start() if m else -1
 
     def gather_candidates(self, context):
-        rel_path = "repos/github.com/takkii/ruby-dictionary3/"
-
-        paths = [os.path.expanduser(os.path.join(p, rel_path)) for p in [
-            "~/.cache/dein/",
-            "~/.local/share/dein/",
-            "~/.config/nvim/.cache/dein/",
-            "~/.config/nvim/",
-            "~/.vim/bundles"
-        ]]
-
         try:
+            rel_path = "repos/github.com/takkii/ruby-dictionary3/"
+
+            paths = [os.path.expanduser(os.path.join(p, rel_path)) for p in [
+                "~/.cache/dein/",
+                "~/.local/share/dein/",
+                "~/.config/nvim/.cache/dein/",
+                "~/.config/nvim/",
+                "~/.vim/bundles"
+            ]]
+
             path = next(p for p in paths if os.path.exists(p))
 
             ruby_method = open(os.path.join(path, "autoload/source/ruby_method_deoplete"))
