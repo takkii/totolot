@@ -3,9 +3,10 @@ import re
 from operator import itemgetter
 
 import numpy as np
+from numba import jit
 from deoplete.source.base import Base
 
-
+@jit
 class Source(Base):
     def __init__(self, vim):
         super().__init__(vim)
