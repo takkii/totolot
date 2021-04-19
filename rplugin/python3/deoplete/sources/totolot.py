@@ -50,7 +50,7 @@ class Source(Base):
             # sort and itemgetter
             dic = data_ruby
             dic.sort(key=itemgetter(0))
-            return jit(dic)
+            return dic
 
         except StopIteration:
             print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
