@@ -4,7 +4,7 @@ from operator import itemgetter
 
 import numpy as np
 from deoplete.source.base import Base
-from numba import jit
+
 
 class Source(Base):
     def __init__(self, vim):
