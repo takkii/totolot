@@ -4,7 +4,7 @@ from operator import itemgetter
 
 import numpy as np
 from deoplete.source.base import Base
-
+from numba import jit
 
 class Source(Base):
     def __init__(self, vim):
@@ -50,7 +50,7 @@ class Source(Base):
             # sort and itemgetter
             dic = data_ruby
             dic.sort(key=itemgetter(0))
-            return dic
+            return jit(dic)
 
         except StopIteration:
             print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
