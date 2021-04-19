@@ -4,6 +4,8 @@ from operator import itemgetter
 
 import numpy as np
 from deoplete.source.base import Base
+from numba import njit
+
 
 class Source(Base):
     def __init__(self, vim):
@@ -20,7 +22,8 @@ class Source(Base):
         m = re.search('[a-zA-Z0-9_?!]*$', context['input'])
         return m.start() if m else -1
 
-    def gather_candidates(self, context):
+    @njit
+    def numba_numpy_dataframe(self, context):
         try:
             rel_path = "repos/github.com/takkii/ruby-dictionary3/"
 
@@ -53,3 +56,9 @@ class Source(Base):
 
         except StopIteration:
             print("Don't forget, Install dein plugin manager github repo takkii/ruby-dictionary3.")
+
+    def gather_candidates(self, context):
+        try:
+            self.numba_numpy_dataframe()
+        except Exception:
+            print("catch Exception throw ...")
