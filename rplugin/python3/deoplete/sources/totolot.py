@@ -59,6 +59,6 @@ class Source(Base):
 
     def gather_candidates(self, context):
         try:
-            self.numba_numpy_dataframe()
+            (self, context).numba_numpy_dataframe(self, context)
         except Exception:
             print("catch Exception throw ...")
