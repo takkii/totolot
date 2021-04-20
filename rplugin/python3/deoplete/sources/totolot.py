@@ -46,6 +46,7 @@ class Source(Base):
             data_ruby = list(map(lambda s: s.rstrip(), sort_ruby))
             ruby_method.close()
             rubymotion_method.close()
+            rurima_list.close()
 
             # sort and itemgetter
             dic = data_ruby
